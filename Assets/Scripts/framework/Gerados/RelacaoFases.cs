@@ -1,0 +1,18 @@
+public enum RelacaoFases
+{
+    brinquedos,
+    cores,
+    coresComLegenda,
+    cuidarPlantas,
+    diferente,
+    diferenteParaClique,
+    exemplo,
+    exemplotrocado,
+    formas,
+    objetos,
+    partescorpo,
+    pintarfrutas,
+    reciclagemFase1,
+    timesFase1,
+    timesFase2,
+}

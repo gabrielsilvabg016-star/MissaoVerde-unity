@@ -1,0 +1,2590 @@
+{
+    "app": "2D Project",
+    "version": "1.0",
+    "scene": "AmbienteFase01",
+    "build": "",
+    "datehourstart": "2025-10-09 10:14:01",
+    "datehourend": "2025-10-09 10:14:07",
+    "reports": [
+        {
+            "id": "1",
+            "title": "[+LUDUS-monitor-start]",
+            "description": "O script iniciou em'H1', id: 54630",
+            "date": "2025-10-09 10:14:01"
+        },
+        {
+            "id": "2",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(758;295;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "3",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(741;295;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "4",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(730;295;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "5",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(719;295;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "6",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(705;295;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "7",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(687;302;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "8",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(659;313;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "9",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(627;320;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "10",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(583;335;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "11",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(545;346;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "12",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(512;360;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "13",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(498;363;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "14",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(496;364;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "15",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(495;364;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "16",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(494;365;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "17",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(493;366;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "18",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(493;367;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "19",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(493;370;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "20",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(493;374;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "21",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(493;377;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "22",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(493;380;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "23",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(493;382;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "24",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(497;386;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "25",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(498;387;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "26",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(502;390;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "27",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(507;394;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "28",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(511;396;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "29",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(515;400;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "30",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(519;404;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "31",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(520;405;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "32",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(522;407;0)",
+            "date": "2025-10-09 10:14:02"
+        },
+        {
+            "id": "33",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(526;411;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "34",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(527;412;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "35",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(529;415;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "36",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(531;416;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "37",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(532;416;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "38",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(533;417;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "39",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(535;417;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "40",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(538;419;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "41",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(539;419;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "42",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(542;419;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "43",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(547;419;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "44",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(553;421;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "45",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(558;421;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "46",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(564;423;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "47",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(566;424;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "48",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(566;425;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "49",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(566;426;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "50",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(567;428;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "51",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(569;430;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "52",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(569;432;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "53",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(569;435;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "54",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(570;435;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "55",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(572;434;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "56",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(572;433;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "57",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(572;432;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "58",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(572;430;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "59",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(572;429;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "60",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(572;428;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "61",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(573;425;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "62",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "63",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "64",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(575;419;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "65",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "66",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(575;418;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "67",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "68",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(576;415;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "69",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "70",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(576;414;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "71",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "72",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(576;412;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "73",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "74",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(576;411;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "75",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "76",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(576;408;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "77",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "78",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(576;407;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "79",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "80",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(577;403;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "81",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "82",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;400;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "83",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "84",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;399;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "85",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "86",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;396;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "87",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "88",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;393;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "89",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "90",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;392;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "91",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "92",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;391;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "93",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "94",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;388;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "95",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "96",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;386;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "97",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "98",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;385;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "99",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "100",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;383;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "101",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "102",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;381;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "103",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "104",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;380;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "105",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "106",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;378;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "107",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "108",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;375;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "109",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "110",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;374;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "111",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "112",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "113",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;368;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "114",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "115",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;367;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "116",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "117",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;365;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "118",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "119",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;362;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "120",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "121",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;361;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "122",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "123",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(578;358;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "124",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "125",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(579;354;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "126",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "127",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(579;350;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "128",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "129",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(581;346;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "130",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "131",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(581;341;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "132",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "133",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(581;336;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "134",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "135",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(583;330;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "136",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "137",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(585;323;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "138",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "139",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(585;319;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "140",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "141",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(586;314;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "142",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "143",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(587;310;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "144",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "145",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(587;307;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "146",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "147",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(588;304;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "148",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "149",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(588;301;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "150",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "151",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(588;300;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "152",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "153",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;296;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "154",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "155",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;293;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "156",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "157",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;290;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "158",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "159",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;287;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "160",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "161",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;284;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "162",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "163",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;281;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "164",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "165",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;276;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "166",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "167",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;273;0)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "168",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:03"
+        },
+        {
+            "id": "169",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;270;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "170",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "171",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;265;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "172",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "173",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;262;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "174",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "175",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;257;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "176",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "177",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;252;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "178",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "179",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;246;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "180",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "181",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;243;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "182",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "183",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(590;240;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "184",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "185",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(587;235;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "186",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "187",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(587;234;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "188",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "189",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(586;228;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "190",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "191",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "192",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(584;222;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "193",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "194",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "195",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(581;213;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "196",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "197",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(579;210;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "198",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "199",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(579;209;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "200",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "201",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(577;206;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "202",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "203",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(576;202;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "204",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "205",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(574;199;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "206",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "207",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(573;195;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "208",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "209",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(573;194;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "210",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "211",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(573;192;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "212",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "213",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(572;189;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "214",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "215",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(571;189;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "216",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "217",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(571;188;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "218",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "219",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(569;187;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "220",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "221",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(568;186;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "222",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "223",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(567;185;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "224",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "225",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(567;184;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "226",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "227",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(566;183;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "228",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "229",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(565;183;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "230",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "231",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(564;182;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "232",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "233",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(564;181;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "234",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "235",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(563;181;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "236",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "237",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(563;180;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "238",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "239",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(562;180;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "240",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "241",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(562;179;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "242",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "243",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(561;177;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "244",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "245",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(559;177;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "246",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "247",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;173;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "248",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "249",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;172;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "250",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "251",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;167;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "252",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "253",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;162;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "254",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "255",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(556;157;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "256",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "257",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(556;155;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "258",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "259",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(556;152;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "260",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "261",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(556;149;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "262",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "263",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(556;144;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "264",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "265",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(556;143;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "266",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "267",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(556;140;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "268",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "269",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(556;137;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "270",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "271",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(556;135;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "272",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "273",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(556;134;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "274",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "275",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(556;133;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "276",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "277",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;130;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "278",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "279",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;133;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "280",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "281",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;134;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "282",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "283",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;137;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "284",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "285",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;140;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "286",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "287",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;141;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "288",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "289",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;143;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "290",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "291",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;144;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "292",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "293",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;145;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "294",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "295",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;146;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "296",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "297",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(557;148;0)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "298",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:04"
+        },
+        {
+            "id": "299",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(558;150;0)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "300",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "301",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(563;150;0)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "302",
+            "title": "[+LUDUS-drag]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "303",
+            "title": "[+LUDUS-drop]:",
+            "description": "objeto(Clone)(Clone) objeto_0 (UnityEngine.Sprite)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "304",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(571;150;0)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "305",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(582;152;0)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "306",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(585;153;0)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "307",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(589;155;0)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "308",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;158;0)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "309",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;159;0)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "310",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;161;0)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "311",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;164;0)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "312",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;165;0)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "313",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;168;0)",
+            "date": "2025-10-09 10:14:05"
+        },
+        {
+            "id": "314",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;169;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "315",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;172;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "316",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;175;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "317",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;178;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "318",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;183;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "319",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;189;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "320",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;194;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "321",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;202;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "322",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;210;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "323",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(591;218;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "324",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(593;237;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "325",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(595;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "326",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(595;252;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "327",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(595;259;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "328",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(595;267;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "329",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(595;275;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "330",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(595;283;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "331",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(595;290;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "332",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(592;295;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "333",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(588;302;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "334",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(587;303;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "335",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(582;307;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "336",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(576;309;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "337",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(565;311;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "338",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(545;311;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "339",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(512;311;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "340",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(466;311;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "341",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(409;308;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "342",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(361;296;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "343",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(317;281;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "344",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(283;267;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "345",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(260;258;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "346",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(247;251;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "347",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(244;249;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "348",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(243;248;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "349",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(243;247;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "350",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(243;246;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "351",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(244;245;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "352",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(246;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "353",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(248;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "354",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(253;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "355",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(261;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "356",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(271;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "357",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(281;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "358",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(293;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "359",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(307;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "360",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(321;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "361",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(336;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "362",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(349;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "363",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(359;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "364",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(370;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "365",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(376;244;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "366",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(377;243;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "367",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(378;242;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "368",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(381;242;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "369",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(388;242;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "370",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(393;242;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "371",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(401;242;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "372",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(409;242;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "373",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(420;242;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "374",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(433;240;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "375",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(447;236;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "376",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(461;231;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "377",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(477;229;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "378",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(524;213;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "379",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(548;206;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "380",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(574;194;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "381",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(607;184;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "382",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(634;174;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "383",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(661;168;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "384",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(685;155;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "385",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(721;141;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "386",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(793;112;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "387",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(825;105;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "388",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(843;97;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "389",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(874;92;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "390",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(907;84;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "391",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(965;74;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "392",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(984;74;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "393",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(996;74;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "394",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1014;74;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "395",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1020;75;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "396",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1023;75;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "397",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1031;78;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "398",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1034;79;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "399",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1034;80;0)",
+            "date": "2025-10-09 10:14:06"
+        },
+        {
+            "id": "400",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1038;80;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "401",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1040;81;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "402",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1044;82;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "403",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1049;83;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "404",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1051;83;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "405",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1050;83;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "406",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1029;87;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "407",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1016;89;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "408",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(1001;91;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "409",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(977;94;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "410",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(971;94;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "411",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(966;94;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "412",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(961;94;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "413",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(955;94;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "414",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(953;94;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "415",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(951;95;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "416",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(946;97;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "417",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(942;99;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "418",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(939;99;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "419",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(938;99;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "420",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(937;99;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "421",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(936;99;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "422",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(936;101;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "423",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(937;102;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "424",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(938;102;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "425",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(940;102;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "426",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(941;102;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "427",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(942;102;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "428",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(944;102;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "429",
+            "title": "[+LUDUS-mouse-move]:",
+            "description": "POS:(945;102;0)",
+            "date": "2025-10-09 10:14:07"
+        },
+        {
+            "id": "430",
+            "title": "[+LUDUS-mouse-click]:",
+            "description": "Botão esquerdo .btnProximo",
+            "date": "2025-10-09 10:14:07"
+        }
+    ]
+}
