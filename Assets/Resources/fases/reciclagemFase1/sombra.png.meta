@@ -164,19 +164,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 604
-        width: 148
-        height: 260
+        y: 595
+        width: 147
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 16fa3e55894c82120800000000000000
-      internalID: 2389375760875106145
+      spriteID: fc725d68549c117438c3abe55fd39956
+      internalID: 423509212
       vertices: []
       indices: 
       edges: []
@@ -185,20 +185,20 @@ TextureImporter:
       name: sombra_1
       rect:
         serializedVersion: 2
-        x: 174
-        y: 604
-        width: 149
-        height: 260
+        x: 175
+        y: 595
+        width: 147
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0d90b4f898fa2bf30800000000000000
-      internalID: 4589923975593396688
+      spriteID: 0cc820749d6fe674aacee0ad07756223
+      internalID: -1913315757
       vertices: []
       indices: 
       edges: []
@@ -207,20 +207,20 @@ TextureImporter:
       name: sombra_2
       rect:
         serializedVersion: 2
-        x: 349
-        y: 604
-        width: 149
-        height: 260
+        x: 350
+        y: 595
+        width: 147
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3ac67d234b5701b70800000000000000
-      internalID: 8867717083100048547
+      spriteID: 0831432e1d060ab44ae484ac78ad9dcb
+      internalID: -310170910
       vertices: []
       indices: 
       edges: []
@@ -229,20 +229,20 @@ TextureImporter:
       name: sombra_3
       rect:
         serializedVersion: 2
-        x: 524
-        y: 604
-        width: 149
-        height: 260
+        x: 525
+        y: 595
+        width: 147
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6767fbf2e95ccd470800000000000000
-      internalID: 8420822686472566390
+      spriteID: 6d7e434c8cc64944cba77d3ae8a3ed73
+      internalID: 2106022836
       vertices: []
       indices: 
       edges: []
@@ -251,20 +251,20 @@ TextureImporter:
       name: sombra_4
       rect:
         serializedVersion: 2
-        x: 699
-        y: 604
-        width: 149
-        height: 260
+        x: 700
+        y: 595
+        width: 147
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eb275d12b0bee3840800000000000000
-      internalID: 5205856652331676350
+      spriteID: 45254c268bb2ae9479bfc3d1f3f34ed2
+      internalID: -1489772512
       vertices: []
       indices: 
       edges: []
@@ -273,20 +273,20 @@ TextureImporter:
       name: sombra_5
       rect:
         serializedVersion: 2
-        x: 874
-        y: 604
-        width: 149
-        height: 260
+        x: 876
+        y: 595
+        width: 146
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c7c67d7399ad08ca0800000000000000
-      internalID: -6016568750565266308
+      spriteID: 00dfe872a0431594281880774e3f5023
+      internalID: 1466218212
       vertices: []
       indices: 
       edges: []
@@ -295,20 +295,20 @@ TextureImporter:
       name: sombra_6
       rect:
         serializedVersion: 2
-        x: 1054
-        y: 604
-        width: 148
-        height: 260
+        x: 1051
+        y: 595
+        width: 147
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6b8f4bb533c963e30800000000000000
-      internalID: 4482942223489759414
+      spriteID: e485d7c64b4814a40b3123f5286d9bd9
+      internalID: 1308670304
       vertices: []
       indices: 
       edges: []
@@ -317,20 +317,20 @@ TextureImporter:
       name: sombra_7
       rect:
         serializedVersion: 2
-        x: 3
-        y: 300
-        width: 149
-        height: 261
+        x: 0
+        y: 305
+        width: 147
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 75fb77747abff4840800000000000000
-      internalID: 5210659989768093527
+      spriteID: 34ae718b976e957439c520892a62737a
+      internalID: 1993555379
       vertices: []
       indices: 
       edges: []
@@ -339,20 +339,20 @@ TextureImporter:
       name: sombra_8
       rect:
         serializedVersion: 2
-        x: 178
-        y: 300
-        width: 149
-        height: 261
+        x: 175
+        y: 305
+        width: 147
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8799a348d7207fac0800000000000000
-      internalID: -3821583020687976072
+      spriteID: 9e32a8d188342b942bbd59c877d2c4b2
+      internalID: -1994022280
       vertices: []
       indices: 
       edges: []
@@ -361,20 +361,20 @@ TextureImporter:
       name: sombra_9
       rect:
         serializedVersion: 2
-        x: 353
-        y: 300
-        width: 149
-        height: 261
+        x: 350
+        y: 305
+        width: 147
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e7f4c1c0ca3415850800000000000000
-      internalID: 6363942154667839358
+      spriteID: 37386d381f561334089f6f0ce1849585
+      internalID: 1972247816
       vertices: []
       indices: 
       edges: []
@@ -383,20 +383,20 @@ TextureImporter:
       name: sombra_10
       rect:
         serializedVersion: 2
-        x: 529
-        y: 300
-        width: 148
-        height: 261
+        x: 525
+        y: 305
+        width: 147
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0f007388416254570800000000000000
-      internalID: 8450202145457111280
+      spriteID: 889ff8dc84ddd6748ac1f1587d1f2ef7
+      internalID: 1211748671
       vertices: []
       indices: 
       edges: []
@@ -405,20 +405,20 @@ TextureImporter:
       name: sombra_11
       rect:
         serializedVersion: 2
-        x: 704
-        y: 300
-        width: 149
-        height: 261
+        x: 700
+        y: 305
+        width: 147
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 40c227b5ee8dd42a0800000000000000
-      internalID: -6751501748110480380
+      spriteID: 4e004a17a1b0f524a8978449f2926ddc
+      internalID: 340006819
       vertices: []
       indices: 
       edges: []
@@ -427,20 +427,20 @@ TextureImporter:
       name: sombra_12
       rect:
         serializedVersion: 2
-        x: 879
-        y: 300
-        width: 149
-        height: 261
+        x: 876
+        y: 305
+        width: 146
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 27bae83fc701c0b40800000000000000
-      internalID: 5407715381413325682
+      spriteID: 0df9c17c3d266e046be113075e310d24
+      internalID: 2064689784
       vertices: []
       indices: 
       edges: []
@@ -449,20 +449,20 @@ TextureImporter:
       name: sombra_13
       rect:
         serializedVersion: 2
-        x: 1054
-        y: 300
-        width: 148
-        height: 261
+        x: 1055
+        y: 305
+        width: 147
+        height: 259
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9dc5b466a2cf2ea60800000000000000
-      internalID: 7701995571792010457
+      spriteID: 7319ad48e4258c348811d2878e640b84
+      internalID: -1978422819
       vertices: []
       indices: 
       edges: []
@@ -471,20 +471,20 @@ TextureImporter:
       name: sombra_14
       rect:
         serializedVersion: 2
-        x: 0
+        x: 5
         y: 0
-        width: 148
-        height: 261
+        width: 147
+        height: 260
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 824bc5ad70bccbd60800000000000000
-      internalID: 7907418280344466472
+      spriteID: e1c31560ed8e23c4796b5eabd372f0af
+      internalID: 441581982
       vertices: []
       indices: 
       edges: []
@@ -493,20 +493,20 @@ TextureImporter:
       name: sombra_15
       rect:
         serializedVersion: 2
-        x: 173
+        x: 179
         y: 0
-        width: 149
-        height: 261
+        width: 147
+        height: 260
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 62ee9f5c9598bce00800000000000000
-      internalID: 1066096755469839910
+      spriteID: 425b1f24cf98e0a47ad89c4ddee44eb0
+      internalID: -622611570
       vertices: []
       indices: 
       edges: []
@@ -515,64 +515,20 @@ TextureImporter:
       name: sombra_16
       rect:
         serializedVersion: 2
-        x: 349
+        x: 355
         y: 0
-        width: 148
-        height: 261
+        width: 146
+        height: 260
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 97bbc1e32228d4140800000000000000
-      internalID: 4705560269254605689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sombra_17
-      rect:
-        serializedVersion: 2
-        x: 524
-        y: 0
-        width: 149
-        height: 261
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d4d351660619876d0800000000000000
-      internalID: -2992482109172138675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sombra_18
-      rect:
-        serializedVersion: 2
-        x: 699
-        y: 0
-        width: 149
-        height: 261
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4284e726ce7ef5b0800000000000000
-      internalID: -5332685519222177205
+      spriteID: fd2bcaa1c074e2a49a752d8e20d7a207
+      internalID: 2047447600
       vertices: []
       indices: 
       edges: []
@@ -581,20 +537,20 @@ TextureImporter:
       name: sombra_19
       rect:
         serializedVersion: 2
-        x: 874
+        x: 530
         y: 0
-        width: 149
-        height: 261
+        width: 147
+        height: 260
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 788dbea2880f940f0800000000000000
-      internalID: -1132109363680651129
+      spriteID: 494f698e0222cc14a91509ad4a93919b
+      internalID: 1724314322
       vertices: []
       indices: 
       edges: []
@@ -603,20 +559,64 @@ TextureImporter:
       name: sombra_20
       rect:
         serializedVersion: 2
-        x: 1049
+        x: 705
         y: 0
-        width: 149
-        height: 261
+        width: 147
+        height: 260
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9469f193d9355e920800000000000000
-      internalID: 3018911059955127881
+      spriteID: c5b30ca6effba354f92141f5331c5144
+      internalID: -1122322814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra_17
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 147
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2497468f40e956248894402c4266b96c
+      internalID: -1312587310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra_18
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 0
+        width: 147
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f3766b41bcab241be939d9b9d5ad4e
+      internalID: -1502358280
       vertices: []
       indices: 
       edges: []
@@ -625,7 +625,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a06d6d0371fdff74c80028ace75e09c5
     internalID: 0
     vertices: []
     indices: 
@@ -634,7 +634,28 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sombra_0: 423509212
+      sombra_1: -1913315757
+      sombra_10: 1211748671
+      sombra_11: 340006819
+      sombra_12: 2064689784
+      sombra_13: -1978422819
+      sombra_14: 441581982
+      sombra_15: -622611570
+      sombra_16: 2047447600
+      sombra_17: -1312587310
+      sombra_18: -1502358280
+      sombra_19: 1724314322
+      sombra_2: -310170910
+      sombra_20: -1122322814
+      sombra_3: 2106022836
+      sombra_4: -1489772512
+      sombra_5: 1466218212
+      sombra_6: 1308670304
+      sombra_7: 1993555379
+      sombra_8: -1994022280
+      sombra_9: 1972247816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

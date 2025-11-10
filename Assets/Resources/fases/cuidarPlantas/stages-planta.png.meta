@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: c79bb4feeb70a0846a321fb1837c1c20
+guid: eaf4306f927be2348970f72a0d39e7b3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3615744542873261963
-    second: machado_0
+      213: 2420260365756102825
+    second: stages-planta_0
+  - first:
+      213: 6373673796440027948
+    second: stages-planta_1
+  - first:
+      213: 7702275528626121627
+    second: stages-planta_2
+  - first:
+      213: 8483420821003318941
+    second: stages-planta_3
+  - first:
+      213: -6354761038304012271
+    second: stages-planta_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: objeto_10
+      name: stages-planta_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 612
-        height: 612
+        width: 138
+        height: 118
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5786b7bce7b42ddc0800000000000000
-      internalID: -3615744542873261963
+      spriteID: c9fd381976482f643a62bd500011fa32
+      internalID: -2038214596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stages-planta_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 0
+        width: 142
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9c31de0a02012438c9629f125d33da
+      internalID: -920330649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stages-planta_2
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 140
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8681c2f0f26f84daf925b962b3c2b3
+      internalID: 482747224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stages-planta_3
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 0
+        width: 140
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de43cc18f8d96aa4ca11d35a3ddd2ef1
+      internalID: 118450601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stages-planta_4
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 0
+        width: 140
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fe80640cd5e6146950231922e50e36
+      internalID: 1989507107
       vertices: []
       indices: 
       edges: []
@@ -125,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f93f622c3ef746741ae89d1401dfdb07
+    spriteID: 141a239d18143a2488a0539c787effb9
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      objeto_10: -3615744542873261963
+      stages-planta_0: -2038214596
+      stages-planta_1: -920330649
+      stages-planta_2: 482747224
+      stages-planta_3: 118450601
+      stages-planta_4: 1989507107
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
