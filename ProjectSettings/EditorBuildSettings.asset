@@ -125,5 +125,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ReciclagemFase02.unity
     guid: 5659a99dab8683e49aff411409a2bcf0
+  - enabled: 1
+    path: Assets/Scenes/ReciclagemIntermediaria2.unity
+    guid: 654cea60fad20c446be1415fc944955e
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

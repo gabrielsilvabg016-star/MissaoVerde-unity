@@ -204,7 +204,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_2
+      name: ObjetoPareado_9
       rect:
         serializedVersion: 2
         x: 354
@@ -336,7 +336,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_8
+      name: ObjetoPareado_15
       rect:
         serializedVersion: 2
         x: 177
@@ -358,7 +358,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_9
+      name: ObjetoPareado_2
       rect:
         serializedVersion: 2
         x: 354
@@ -490,10 +490,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_15
+      name: ObjetoPareado_8
       rect:
         serializedVersion: 2
-        x: 177
+        x: 180
         y: 0
         width: 152
         height: 266
@@ -534,7 +534,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_17
+      name: ObjetoPareado_19
       rect:
         serializedVersion: 2
         x: 532
@@ -556,7 +556,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_18
+      name: ObjetoPareado_20
       rect:
         serializedVersion: 2
         x: 709
@@ -578,7 +578,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_19
+      name: ObjetoPareado_17
       rect:
         serializedVersion: 2
         x: 886
@@ -600,7 +600,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_20
+      name: ObjetoPareado_18
       rect:
         serializedVersion: 2
         x: 1064
@@ -642,20 +642,20 @@ TextureImporter:
       ObjetoPareado_12: -7742056593145552299
       ObjetoPareado_13: -2558141727259131035
       ObjetoPareado_14: 5252472552352726752
-      ObjetoPareado_15: 384126152976424741
+      ObjetoPareado_15: 3229734202857804736
       ObjetoPareado_16: 3266771191161607938
-      ObjetoPareado_17: -3731404736626522788
-      ObjetoPareado_18: -680578824229448546
-      ObjetoPareado_19: -4207962164701679557
-      ObjetoPareado_2: -7672120627631934379
-      ObjetoPareado_20: 4137000965850033719
+      ObjetoPareado_17: -4207962164701679557
+      ObjetoPareado_18: 4137000965850033719
+      ObjetoPareado_19: -3731404736626522788
+      ObjetoPareado_2: 7843724997111555625
+      ObjetoPareado_20: -680578824229448546
       ObjetoPareado_3: 7018045769859814766
       ObjetoPareado_4: -6392076315878043211
       ObjetoPareado_5: -4630033534731770227
       ObjetoPareado_6: 7604462850385609663
       ObjetoPareado_7: 6901029048578613664
-      ObjetoPareado_8: 3229734202857804736
-      ObjetoPareado_9: 7843724997111555625
+      ObjetoPareado_8: 384126152976424741
+      ObjetoPareado_9: -7672120627631934379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
