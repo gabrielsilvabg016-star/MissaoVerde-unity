@@ -17,7 +17,6 @@ public class tabelaAuxiliar : MonoBehaviour
 
     public void MostrarImagem()
     {
-        Debug.Log("botão funciona");
         if(imagemTabela.activeSelf == false)
         {
             imagemTabela.SetActive(true); // esconde a imagem

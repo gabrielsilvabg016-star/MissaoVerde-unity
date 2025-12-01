@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e438ba7056982b84893084cf8311d9dd
+guid: 4daceb7f94b276a4abce5604ce4dd710
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8146436688818153685
-    second: tabelaAjuda02_0
+      213: 1117621277807814682
+    second: TblAuxilioHori2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tabelaAjuda02_0
+      name: TblAuxilioHori2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 1
-        width: 1114
-        height: 1440
+        width: 1981
+        height: 1148
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 470eee01a8692be4faacbbd36a1ca638
-      internalID: 302924995
+      spriteID: 9260e2bc911fe7b448ec0897cbb066f8
+      internalID: -1301982972
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9d0901f3b3372594695107715eb03632
+    spriteID: 56fdd54f54dc964499b78285c1237e08
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tabelaAjuda02_0: 302924995
+      TblAuxilioHori2_0: -1301982972
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
