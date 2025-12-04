@@ -4,26 +4,26 @@ using UnityEngine.EventSystems;
 
 public class tabelaAuxiliar : MonoBehaviour
 {
-    public GameObject imagemTabela;
+    public GameObject cnvs;
     public Button botao;
     void Start() 
     {
-        if (imagemTabela != null)
+        if (cnvs != null)
         {
-            imagemTabela.SetActive(false); //seta a imagem como escondida
+            cnvs.SetActive(false); //seta a imagem como escondida
         }
         botao.onClick.AddListener(MostrarImagem);
     }
 
     public void MostrarImagem()
     {
-        if(imagemTabela.activeSelf == false)
+        if(cnvs.activeSelf == false) //imagem escondida
         {
-            imagemTabela.SetActive(true); // esconde a imagem
+            cnvs.SetActive(true); //mostra a imagem
         }
-        else if (imagemTabela.activeSelf == true)
+        else if (cnvs.activeSelf == true) //imagem mostrada
         {
-            imagemTabela.SetActive(false);
+            cnvs.SetActive(false); //esconde a imagem
         }
     }
 }
