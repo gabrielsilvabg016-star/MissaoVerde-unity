@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: a0f389120d2a97c46ae759ff7db5b8dd
+guid: 2ab68dbebe4ea8a4d8800578a57d01bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1842926128498458590
-    second: msg2_0
+      213: -371713360398626141
+    second: mensagems_0
+  - first:
+      213: -7120488422046542610
+    second: mensagems_1
+  - first:
+      213: 5461434060762199027
+    second: mensagems_2
+  - first:
+      213: 6191411368515616704
+    second: mensagems_3
+  - first:
+      213: 1575672518012561164
+    second: mensagems_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: msg2_0
+      name: mensagems_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 1821
-        height: 761
+        x: 2319
+        y: 971
+        width: 1824
+        height: 762
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 220409b437c9c66e0800000000000000
-      internalID: -1842926128498458590
+      spriteID: 3f333f3a759eacb40800000000000000
+      internalID: 5461434060762199027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mensagems_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 2157
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf30be06df4ce550800000000000000
+      internalID: 6191411368515616704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mensagems_0
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 0
+        width: 1880
+        height: 843
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07eb7e8ec9edd510800000000000000
+      internalID: 1575672518012561164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mensagems_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1004
+        width: 2020
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faaa300cae19fd489b4d096984583f4
+      internalID: -140919943
       vertices: []
       indices: 
       edges: []
@@ -125,7 +203,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1ac93f0207bcc0944984670ff8d8a1bf
+    spriteID: b8834dff2102c3143a7c9e6551a9f2a7
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +213,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      msg2_0: -1842926128498458590
+      mensagems_0: 1575672518012561164
+      mensagems_2: 5461434060762199027
+      mensagems_3: -140919943
+      mensagems_4: 6191411368515616704
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
