@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 626ba86ce9d7ba54182375e4b29e8bf7
+guid: f491fa68541d43340b04c2a28c00c03a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4732984449628357224
-    second: TblAuxilioHori_0
+      213: 1117621277807814682
+    second: TblAuxilioHori2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TblAuxilioHori_0
+      name: TblAuxilioHori2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1943
-        height: 1141
+        y: 1
+        width: 1981
+        height: 1148
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 89d347038bf015eb0800000000000000
-      internalID: -4732984449628357224
+      spriteID: 62324f5fee2d2c746ba284ac8e5f6fbc
+      internalID: 202532566
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0f112c42a83301848844a53ee0b6ff53
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TblAuxilioHori_0: -4732984449628357224
+      TblAuxilioHori2_0: 202532566
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
