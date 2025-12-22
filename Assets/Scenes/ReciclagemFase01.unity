@@ -803,6 +803,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!224 &545178636 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4973555610587315694, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
+  m_PrefabInstance: {fileID: 1029873443}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &604994667
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,7 +1298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: cenaFinal
-      value: ReciclagemFase02
+      value: ReciclagemIntermediaria2
       objectReference: {fileID: 0}
     - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: m_Enabled
@@ -2671,6 +2676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cnvs: {fileID: 2080093226}
   botao: {fileID: 1399669305}
+  painel: {fileID: 545178636}
 --- !u!1 &1499302387
 GameObject:
   m_ObjectHideFlags: 0

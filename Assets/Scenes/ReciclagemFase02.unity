@@ -300,6 +300,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!224 &255554706 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4973555610587315694, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
+  m_PrefabInstance: {fileID: 1152469852}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &570616332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1436,6 +1441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cnvs: {fileID: 1062322701}
   botao: {fileID: 983441996}
+  painel: {fileID: 255554706}
 --- !u!114 &983441996
 MonoBehaviour:
   m_ObjectHideFlags: 0
