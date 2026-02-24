@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: f0cca143871aa864f8758676ae180276
+guid: 6bf7ad81b8cc9c647ace5b24c04b00a6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4732984449628357224
-    second: TblAuxilioHori_0
+      213: -6071020695505685825
+    second: tbl-aux-final_0
+  - first:
+      213: -633724852936394374
+    second: tbl-aux-final_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,27 +99,62 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TblAuxilioHori_0
+      name: tbl-aux-final_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 1981
-        height: 1148
+        y: 0
+        width: 1947
+        height: 1169
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 04b1990745a49214cbf2ece131dec2a6
-      internalID: 996493387
+      spriteID: fb2b654d7d66fbba0800000000000000
+      internalID: -6071020695505685825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tbl-aux-final_1
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 0
+        width: 1959
+        height: 1169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79b3679a9e8437f0800000000000000
+      internalID: -633724852936394374
       vertices: []
       indices: 
       edges: []
@@ -125,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ef21786c822aedb47b204c33bba09be2
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -134,8 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      TblAuxilioHori_0: 996493387
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

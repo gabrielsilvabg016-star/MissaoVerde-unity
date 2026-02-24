@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System;
 
 public class tabelaAuxiliar : MonoBehaviour
 {
@@ -31,6 +32,7 @@ public class tabelaAuxiliar : MonoBehaviour
             objLixo2.SetActive(false);
             objLixo3.SetActive(false);
             cnvs.SetActive(true); //mostra a imagem
+            Debug.Log("teste imagem escondida");
             
         }
         else if (cnvs.activeSelf == true) //imagem mostrada
@@ -39,6 +41,7 @@ public class tabelaAuxiliar : MonoBehaviour
             objLixo2.SetActive(true);
             objLixo3.SetActive(true);
             cnvs.SetActive(false); //esconde a imagem
+            Debug.Log("teste imagem mostrada");
         }
     }
 }
