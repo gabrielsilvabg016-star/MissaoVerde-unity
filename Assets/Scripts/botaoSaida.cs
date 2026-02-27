@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems;
-using System;
+
 
 public class botaoSaida : MonoBehaviour
 {
@@ -22,10 +21,7 @@ public class botaoSaida : MonoBehaviour
                 painel.transform.GetChild(x).gameObject.SetActive(true);
             }
             canvas.SetActive(false);
-        }
-        else if (canvas.activeSelf == false)
-        {
-            Debug.Log("canvas já esta desativado");
+            Debug.Log("Canvas foi desativado");
         }
     }
 }

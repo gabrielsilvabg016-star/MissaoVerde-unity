@@ -803,11 +803,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!224 &545178636 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 4973555610587315694, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
-  m_PrefabInstance: {fileID: 1029873443}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &604994667
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,7 +1130,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 964641847}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 964641849}
+        m_TargetAssemblyTypeName: botaoSaida, Assembly-CSharp
+        m_MethodName: EsconderImagem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &964641847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1183,12 +1190,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 964641843}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3ac5b65a1c36554081e8efe05738067, type: 3}
+  m_Script: {fileID: 11500000, guid: 474ad114e704e374ea876e512da1c680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cnvs: {fileID: 2080093226}
-  botao: {fileID: 964641846}
-  painel: {fileID: 545178636}
+  canvas: {fileID: 2080093226}
+  button: {fileID: 964641846}
+  painel: {fileID: 1029305947}
 --- !u!1 &977470918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,6 +1283,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1029305947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2035238762260152497, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
+  m_PrefabInstance: {fileID: 1029873443}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1029873443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2812,7 +2824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cnvs: {fileID: 2080093226}
   botao: {fileID: 1399669305}
-  painel: {fileID: 545178636}
+  painel: {fileID: 1029305947}
 --- !u!1 &1499302387
 GameObject:
   m_ObjectHideFlags: 0
