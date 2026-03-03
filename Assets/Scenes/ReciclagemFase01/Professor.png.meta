@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: 2ab68dbebe4ea8a4d8800578a57d01bd
+guid: 46963e1fdb0cbcf4fabaa0c3ac0fb8d2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -371713360398626141
-    second: mensagems_0
+      213: 4572996325105955597
+    second: Professor_0
   - first:
-      213: -7120488422046542610
-    second: mensagems_1
-  - first:
-      213: 5461434060762199027
-    second: mensagems_2
-  - first:
-      213: 6191411368515616704
-    second: mensagems_3
-  - first:
-      213: 1575672518012561164
-    second: mensagems_4
+      213: 8964032389000990355
+    second: Professor_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -108,39 +99,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mensagems_2
-      rect:
-        serializedVersion: 2
-        x: 2319
-        y: 971
-        width: 1824
-        height: 762
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3f333f3a759eacb40800000000000000
-      internalID: 5461434060762199027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mensagems_4
+      name: Professor_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 5
-        width: 2157
-        height: 873
+        y: 1
+        width: 603
+        height: 614
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0cf30be06df4ce550800000000000000
-      internalID: 6191411368515616704
+      spriteID: d037b1dcdeb867f30800000000000000
+      internalID: 4572996325105955597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mensagems_0
+      name: Professor_1
       rect:
         serializedVersion: 2
-        x: 2291
+        x: 672
         y: 0
-        width: 1880
-        height: 843
+        width: 465
+        height: 615
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,30 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c07eb7e8ec9edd510800000000000000
-      internalID: 1575672518012561164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mensagems_3
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 1004
-        width: 2020
-        height: 724
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4faaa300cae19fd489b4d096984583f4
-      internalID: -140919943
+      spriteID: 39e008dd6f3a66c70800000000000000
+      internalID: 8964032389000990355
       vertices: []
       indices: 
       edges: []
@@ -203,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b8834dff2102c3143a7c9e6551a9f2a7
+    spriteID: 82fa38d1ac0d51641acb9709ac5e09c6
     internalID: 0
     vertices: []
     indices: 
@@ -213,10 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mensagems_0: 1575672518012561164
-      mensagems_2: 5461434060762199027
-      mensagems_3: -140919943
-      mensagems_4: 6191411368515616704
+      Professor_0: 4572996325105955597
+      Professor_1: 8964032389000990355
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
