@@ -489,8 +489,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 36c150e6b1aec754384ff1d9686d467b, type: 3}
-  m_Resource: {fileID: 8300000, guid: 36c150e6b1aec754384ff1d9686d467b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5e0b3006289986a4786b51d5a8487cdb, type: 3}
+  m_Resource: {fileID: 8300000, guid: 5e0b3006289986a4786b51d5a8487cdb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -828,7 +828,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pequenos restos, grandes impactos! Use a lixeira marrom.
+  m_text: Pequenos restos, grandes impactos, use a lixeira marrom.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -958,8 +958,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 36c150e6b1aec754384ff1d9686d467b, type: 3}
-  m_Resource: {fileID: 8300000, guid: 36c150e6b1aec754384ff1d9686d467b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 900bfcf4184ca3349b51ef533194e4d6, type: 3}
+  m_Resource: {fileID: 8300000, guid: 900bfcf4184ca3349b51ef533194e4d6, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1209,7 +1209,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Papel separado, futuro preservado! Descarte-o na lixeira azul.
+  m_text: Papel separado, futuro preservado, descarte-o na lixeira azul.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1482,7 +1482,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vidro no lugar certo faz a diferen\xE7a!\nDescarte-o sempre na lixeira
+  m_text: "Vidro no lugar certo faz a diferen\xE7a,\nDescarte-o sempre na lixeira
     verde."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1701,8 +1701,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 36c150e6b1aec754384ff1d9686d467b, type: 3}
-  m_Resource: {fileID: 8300000, guid: 36c150e6b1aec754384ff1d9686d467b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7613faa6afb03cd42b26934028d90091, type: 3}
+  m_Resource: {fileID: 8300000, guid: 7613faa6afb03cd42b26934028d90091, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2449,8 +2449,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 36c150e6b1aec754384ff1d9686d467b, type: 3}
-  m_Resource: {fileID: 8300000, guid: 36c150e6b1aec754384ff1d9686d467b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e7f69b371a4f83d40bc6a56a12421fbe, type: 3}
+  m_Resource: {fileID: 8300000, guid: e7f69b371a4f83d40bc6a56a12421fbe, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3364,8 +3364,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 36c150e6b1aec754384ff1d9686d467b, type: 3}
-  m_Resource: {fileID: 8300000, guid: 36c150e6b1aec754384ff1d9686d467b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5662391574b9fa94cbcb074feb74d99b, type: 3}
+  m_Resource: {fileID: 8300000, guid: 5662391574b9fa94cbcb074feb74d99b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4007,8 +4007,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 36c150e6b1aec754384ff1d9686d467b, type: 3}
-  m_Resource: {fileID: 8300000, guid: 36c150e6b1aec754384ff1d9686d467b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fe533e68efce6bb4cb5889d56b41e335, type: 3}
+  m_Resource: {fileID: 8300000, guid: fe533e68efce6bb4cb5889d56b41e335, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
