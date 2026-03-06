@@ -114,19 +114,19 @@ EditorBuildSettings:
     path: Assets/Scenes/ReciclagemInicio.unity
     guid: 4144cdeda9bcbd542b2f54743ee13758
   - enabled: 1
+    path: Assets/Scenes/ReciclagemIntermediaria.unity
+    guid: 28521f4b2cdb74d41b032cf50adac2da
+  - enabled: 1
     path: Assets/Scenes/ReciclagemFase01.unity
     guid: 074cc7e4016c7864ca93f324e6cf7c74
   - enabled: 1
-    path: Assets/Scenes/ReciclagemFinal.unity
-    guid: 45dbc0ba2a3af0f438f029c5bab69303
-  - enabled: 1
-    path: Assets/Scenes/ReciclagemIntermediaria.unity
-    guid: 28521f4b2cdb74d41b032cf50adac2da
+    path: Assets/Scenes/ReciclagemIntermediaria2.unity
+    guid: 42dcfe33489b0b24c95d82b713e8d127
   - enabled: 1
     path: Assets/Scenes/ReciclagemFase02.unity
     guid: 5659a99dab8683e49aff411409a2bcf0
   - enabled: 1
-    path: Assets/Scenes/ReciclagemIntermediaria2.unity
-    guid: 654cea60fad20c446be1415fc944955e
+    path: Assets/Scenes/ReciclagemFinal.unity
+    guid: 45dbc0ba2a3af0f438f029c5bab69303
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
