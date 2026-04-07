@@ -1475,6 +1475,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   img: {fileID: 1499302387}
+--- !u!1 &631260243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1531185774947640317, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
+  m_PrefabInstance: {fileID: 1029873443}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &820772525 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7285620247517566430, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
@@ -4027,10 +4032,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1776743214}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc1af2d3dc4ebd044bec310a9b4cd408, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bb65ca68af16a84f845bed0e52c3e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  painel: {fileID: 1029305947}
+  painelObjetos: {fileID: 1029305947}
+  painelLixeiras: {fileID: 631260243}
 --- !u!1 &1795588814
 GameObject:
   m_ObjectHideFlags: 0
@@ -4274,7 +4280,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2080093227
 RectTransform:
   m_ObjectHideFlags: 0
