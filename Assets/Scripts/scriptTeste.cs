@@ -44,10 +44,10 @@ public class scriptTeste : MonoBehaviour
         Image img = lixeira.GetComponent<Image>();
         lixeira.name = "lixeira";
         Debug.Log("Clicou em " + lixeira.name+ " imagem: "+img.sprite.name);
-        ClicarLixeira(lixeira);
+        Pareamento(lixeira);
     }
 
-    void ClicarLixeira(GameObject lixeira)
+    void Pareamento(GameObject lixeira)
     {
         Image imgLixo = lixoSelect.GetComponent<Image>();
         Image imgLixeira = lixeira.GetComponent<Image>();
