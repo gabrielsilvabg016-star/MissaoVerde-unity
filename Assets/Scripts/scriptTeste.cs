@@ -3,6 +3,8 @@ using UnityEngine.UI;
 
 public class scriptTeste : MonoBehaviour
 {
+    //achar um jeito de fazer todo esse script funcionar so se detectar uso de setas
+    //janela de config no inicio talvez
     public static scriptTeste Instancia;
 
     private GameObject lixoSelect;
@@ -61,12 +63,14 @@ public class scriptTeste : MonoBehaviour
         if(nomeLixo == nomeLixeira)
         {
             Debug.Log("jogou fora: "+ lixoSelect.name);
-
+            //tem que adicionar em algum canto daqui um replace sprite de lixeira vazia com sprite full
+            //tocar o audio de acerto
             Destroy(lixoSelect);
             lixoSelect = null;
         }
         else
         {
+            //fazer tocar o audio de erro
             Debug.Log("Seleção errada!");
         }
     }
