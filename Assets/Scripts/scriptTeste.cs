@@ -74,7 +74,6 @@ public class ControllerSetas : MonoBehaviour
 
         string nomeLixo = imgLixo.sprite.name;
         string nomeLixeira = imgLixeira.sprite.name;
-        
 
         nomeLixo = nomeLixo.Split('_')[1];
         nomeLixeira = nomeLixeira.Split('_')[1];
