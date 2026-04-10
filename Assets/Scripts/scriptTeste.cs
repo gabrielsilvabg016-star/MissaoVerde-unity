@@ -1,15 +1,26 @@
+using System;
+using System.Collections.Generic;
+using Unity.Entities;
+using Unity.VisualScripting;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
+using UnityEditor.U2D;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.WSA;
 
-public class scriptTeste : MonoBehaviour
+public class ControllerSetas : MonoBehaviour
 {
-    //achar um jeito de fazer todo esse script funcionar so se detectar uso de setas
-    //janela de config no inicio talvez
-    public static scriptTeste Instancia;
+    
+    private static ControllerSetas Instancia;
 
     private GameObject lixoSelect;
     public GameObject painelObjetos;
     public GameObject painelLixeiras;
+    public GameObject proxNivel;
+    public Boolean substituirAposParear;
+    private AudioSource audioSource;
+    public AudioClip somAcerto;
+    public AudioClip somErro;
 
     void Awake()
     {
@@ -22,7 +33,7 @@ public class scriptTeste : MonoBehaviour
             GameObject filho = painelObjetos.transform.GetChild(x).gameObject;
             Button btn = filho.GetComponent<Button>();
 
-            btn.onClick.AddListener(() => QuandoClicarLixo(filho));
+            btn.onClick.AddListener(() => ClicarLixo(filho));
         }
 
         for(int x = 0; x<painelLixeiras.transform.childCount; x++)
@@ -30,23 +41,30 @@ public class scriptTeste : MonoBehaviour
             GameObject filho = painelLixeiras.transform.GetChild(x).gameObject;
             Button btn = filho.GetComponent<Button>();
 
-            btn.onClick.AddListener(() => QuandoClicarLixeira(filho));
+            btn.onClick.AddListener(() => ClicarLixeira(filho));
         }
+
+        audioSource = GetComponent<AudioSource>();
     }
 
-    void QuandoClicarLixo(GameObject lixo)
+    void ClicarLixo(GameObject lixo)
     {
         Image img = lixo.GetComponent<Image>();
         lixoSelect = lixo;
         Debug.Log("Clicou em " + lixoSelect.name + " imagem: "+img.sprite.name);
     }
 
-    void QuandoClicarLixeira(GameObject lixeira)
+    void ClicarLixeira(GameObject lixeira)
     {
         Image img = lixeira.GetComponent<Image>();
         lixeira.name = "lixeira";
         Debug.Log("Clicou em " + lixeira.name+ " imagem: "+img.sprite.name);
         Pareamento(lixeira);
+        Debug.Log(painelObjetos.transform.childCount);
+        if(painelObjetos.transform.childCount <= 1)
+        {
+            AtivarBotao();
+        }
     }
 
     void Pareamento(GameObject lixeira)
@@ -56,6 +74,7 @@ public class scriptTeste : MonoBehaviour
 
         string nomeLixo = imgLixo.sprite.name;
         string nomeLixeira = imgLixeira.sprite.name;
+        
 
         nomeLixo = nomeLixo.Split('_')[1];
         nomeLixeira = nomeLixeira.Split('_')[1];
@@ -63,15 +82,35 @@ public class scriptTeste : MonoBehaviour
         if(nomeLixo == nomeLixeira)
         {
             Debug.Log("jogou fora: "+ lixoSelect.name);
-            //tem que adicionar em algum canto daqui um replace sprite de lixeira vazia com sprite full
-            //tocar o audio de acerto
+            if(substituirAposParear)
+            {
+                Sprite[] arraySprites = Resources.LoadAll<Sprite>("fases/reciclagemFase1/objetoPareado"); //so alterar esse caminho para alterar a imagem pareada;
+                Debug.Log("entrou no if de objetoPareado");
+                Debug.Log(arraySprites.Length);
+                foreach(Sprite novo in arraySprites)
+                    {
+                        string novoSprite = novo.name.Split('_')[1];
+                        if(nomeLixeira == novoSprite)
+                        {
+                            imgLixeira.sprite = novo;
+                            break;
+                        }
+                    }           
+            }
+            audioSource.PlayOneShot(somAcerto);
             Destroy(lixoSelect);
             lixoSelect = null;
         }
         else
         {
-            //fazer tocar o audio de erro
+            audioSource.PlayOneShot(somErro);
             Debug.Log("Seleção errada!");
         }
+    }
+
+    void AtivarBotao()
+    {
+        Debug.Log("entrou função ativar botão");
+        proxNivel.SetActive(true);
     }
 }
