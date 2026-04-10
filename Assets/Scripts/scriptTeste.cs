@@ -109,7 +109,7 @@ public class ControllerSetas : MonoBehaviour
 
     void AtivarBotao()
     {
-        Debug.Log("entrou função ativar botão");
+        Debug.Log("entrou na função ativar botão");
         proxNivel.SetActive(true);
     }
 }
