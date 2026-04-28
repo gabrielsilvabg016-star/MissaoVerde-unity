@@ -1748,7 +1748,7 @@ MonoBehaviour:
   canvas: {fileID: 2080093226}
   button: {fileID: 964641846}
   painel: {fileID: 1029305947}
-  buttonDefault: {fileID: 0}
+  buttonDefault: {fileID: 820772525}
 --- !u!1 &977470918
 GameObject:
   m_ObjectHideFlags: 0

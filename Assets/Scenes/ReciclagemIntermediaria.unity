@@ -1006,6 +1006,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   primeiroBotao: {fileID: 1912144854}
+  NavSom: 0
+  SomMovimento: {fileID: 8300000, guid: f94c74bf4ea271942ac4042b2e9a0679, type: 3}
 --- !u!1 &1912144854
 GameObject:
   m_ObjectHideFlags: 0

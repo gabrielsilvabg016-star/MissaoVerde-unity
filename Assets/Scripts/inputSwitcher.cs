@@ -5,7 +5,7 @@ public class InputSwitcher : MonoBehaviour
 {
     public GameObject primeiroBotao;
     private bool Mouse = true;
-    public bool NavSom; //se ativado toca som ao navegar pelos objetos
+    public bool NavSom = false; //se ativado toca som ao navegar pelos objetos
     private AudioSource audioSource;
     public AudioClip SomMovimento;
     private GameObject ultimoSelect;
@@ -13,6 +13,7 @@ public class InputSwitcher : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        NavSom = PlayerPrefs.GetInt("NavSom", 0) == 1;
     }
 
     void Update()
@@ -101,8 +102,9 @@ public class InputSwitcher : MonoBehaviour
             }
     }
 
-    void SetActiveNavSom(bool value)
+    public void SetActiveNavSom(bool value)
     {
+        NavSom = value;
         PlayerPrefs.SetInt("NavSom", value ? 1 : 0);
         PlayerPrefs.Save();
     }
