@@ -28,7 +28,7 @@ public class ControllerSetas : MonoBehaviour
     }
     void Start()
     {
-        for(int x = 0; x<painelObjetos.transform.childCount; x++)
+        for(int x = 0; x<painelObjetos.transform.childCount; x++)//captura os filhos do painel, pega o elemento button e adiciona a função ClicarLixo
         {
             GameObject filho = painelObjetos.transform.GetChild(x).gameObject;
             Button btn = filho.GetComponent<Button>();
@@ -36,7 +36,7 @@ public class ControllerSetas : MonoBehaviour
             btn.onClick.AddListener(() => ClicarLixo(filho));
         }
 
-        for(int x = 0; x<painelLixeiras.transform.childCount; x++)
+        for(int x = 0; x<painelLixeiras.transform.childCount; x++)//captura os filhos do painel, pega o elemento button e adiciona a função ClicarLixeira
         {
             GameObject filho = painelLixeiras.transform.GetChild(x).gameObject;
             Button btn = filho.GetComponent<Button>();
@@ -63,7 +63,7 @@ public class ControllerSetas : MonoBehaviour
         Debug.Log(painelObjetos.transform.childCount);
         if(painelObjetos.transform.childCount <= 1)
         {
-            AtivarBotao();
+            AtivarBotaoProxNivel();
         }
     }
 
@@ -107,7 +107,7 @@ public class ControllerSetas : MonoBehaviour
         }
     }
 
-    void AtivarBotao()
+    void AtivarBotaoProxNivel()
     {
         Debug.Log("entrou na função ativar botão");
         proxNivel.SetActive(true);

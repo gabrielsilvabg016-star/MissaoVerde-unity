@@ -518,6 +518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   primeiroBotao: {fileID: 820772525}
+  NavSom: 1
   SomMovimento: {fileID: 8300000, guid: f94c74bf4ea271942ac4042b2e9a0679, type: 3}
 --- !u!82 &273864346
 AudioSource:
@@ -1747,6 +1748,7 @@ MonoBehaviour:
   canvas: {fileID: 2080093226}
   button: {fileID: 964641846}
   painel: {fileID: 1029305947}
+  buttonDefault: {fileID: 0}
 --- !u!1 &977470918
 GameObject:
   m_ObjectHideFlags: 0
@@ -4124,7 +4126,7 @@ Transform:
   m_GameObject: {fileID: 1776743214}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 87.54078, y: -36.65949, z: 155442.34}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 95.950195, y: 95.950195, z: 95.950195}
   m_ConstrainProportionsScale: 0
   m_Children: []
