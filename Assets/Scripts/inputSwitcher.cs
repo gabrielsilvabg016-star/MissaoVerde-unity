@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class InputSwitcher : MonoBehaviour
 {
     public GameObject primeiroBotao;
+    public Toggle toggleSom;
     private bool Mouse = true;
     public bool NavSom = false; //se ativado toca som ao navegar pelos objetos
     private AudioSource audioSource;
@@ -13,7 +15,12 @@ public class InputSwitcher : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        NavSom = PlayerPrefs.GetInt("NavSom", 0) == 1;
+        //carrega
+        NavSom = (PlayerPrefs.GetInt("NavSom") != 0);
+        if(toggleSom)
+        {
+            toggleSom.isOn = NavSom;
+        }
     }
 
     void Update()
@@ -108,4 +115,5 @@ public class InputSwitcher : MonoBehaviour
         PlayerPrefs.SetInt("NavSom", value ? 1 : 0);
         PlayerPrefs.Save();
     }
+    
 }

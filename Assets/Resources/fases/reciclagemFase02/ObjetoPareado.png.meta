@@ -1,70 +1,70 @@
 fileFormatVersion: 2
-guid: 0b43e8ff3767c634b8f3b575845d8667
+guid: ec068caa78b87b84ab30b29c727e5b23
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7308144785926150170
-    second: ObjetoPareado_0
+      213: -3285106276782294884
+    second: objetoPareado_0
   - first:
-      213: -1366968557280159266
-    second: ObjetoPareado_1
+      213: 206179925468165803
+    second: objetoPareado_1
   - first:
-      213: -7672120627631934379
-    second: ObjetoPareado_2
+      213: -7611033984501057361
+    second: objetoPareado_2
   - first:
-      213: 7018045769859814766
-    second: ObjetoPareado_3
+      213: -4652113761565598975
+    second: objetoPareado_3
   - first:
-      213: -6392076315878043211
-    second: ObjetoPareado_4
+      213: 1346613104425115273
+    second: objetoPareado_4
   - first:
-      213: -4630033534731770227
-    second: ObjetoPareado_5
+      213: 2060889453158488181
+    second: objetoPareado_5
   - first:
-      213: 7604462850385609663
-    second: ObjetoPareado_6
+      213: -7891946118995466733
+    second: objetoPareado_6
   - first:
-      213: 6901029048578613664
-    second: ObjetoPareado_7
+      213: 8843949456139291131
+    second: objetoPareado_7
   - first:
-      213: 3229734202857804736
-    second: ObjetoPareado_8
+      213: 3914933423997334653
+    second: objetoPareado_8
   - first:
-      213: 7843724997111555625
-    second: ObjetoPareado_9
+      213: 2488729247255570730
+    second: objetoPareado_9
   - first:
-      213: -2543202671947510072
-    second: ObjetoPareado_10
+      213: -6564004403674903979
+    second: objetoPareado_10
   - first:
-      213: -1680988597495847557
-    second: ObjetoPareado_11
+      213: 7810579739314333461
+    second: objetoPareado_11
   - first:
-      213: -7742056593145552299
-    second: ObjetoPareado_12
+      213: 714632346744539188
+    second: objetoPareado_12
   - first:
-      213: -2558141727259131035
-    second: ObjetoPareado_13
+      213: -2190275769742150076
+    second: objetoPareado_13
   - first:
-      213: 5252472552352726752
-    second: ObjetoPareado_14
+      213: 8607570659575973326
+    second: objetoPareado_14
   - first:
-      213: 384126152976424741
-    second: ObjetoPareado_15
+      213: -5810639022647879455
+    second: objetoPareado_15
   - first:
-      213: 3266771191161607938
-    second: ObjetoPareado_16
+      213: -3080185294199426059
+    second: objetoPareado_16
   - first:
-      213: -3731404736626522788
-    second: ObjetoPareado_17
+      213: -3395030395197322478
+    second: objetoPareado_17
   - first:
-      213: -680578824229448546
-    second: ObjetoPareado_18
+      213: -7674112176799950887
+    second: objetoPareado_18
   - first:
-      213: -4207962164701679557
-    second: ObjetoPareado_19
+      213: 7260215878742244976
+    second: objetoPareado_19
   - first:
-      213: 4137000965850033719
-    second: ObjetoPareado_20
+      213: 6868349682584839057
+    second: objetoPareado_20
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -160,463 +160,463 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ObjetoPareado_0
+      name: objetoPareado_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 559
+        y: 556
         width: 149
-        height: 265
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e7afb39901449a90800000000000000
-      internalID: -7308144785926150170
+      spriteID: 2862f3806bf79ff4d9553e8d41ad121d
+      internalID: -195918663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_1
+      name: objetoPareado_1
       rect:
         serializedVersion: 2
         x: 177
-        y: 558
-        width: 152
-        height: 266
+        y: 556
+        width: 149
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ed91034f65d870de0800000000000000
-      internalID: -1366968557280159266
+      spriteID: 5be92d4805a3fcc4ba067505b76e1d0b
+      internalID: 861575925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_9
+      name: objetoPareado_9
       rect:
         serializedVersion: 2
-        x: 354
-        y: 558
-        width: 152
-        height: 266
+        x: 353
+        y: 556
+        width: 149
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5543d0410f6278590800000000000000
-      internalID: -7672120627631934379
+      spriteID: 4164871eec6013c4b8b2742c7f4779d2
+      internalID: 1688365634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_3
+      name: objetoPareado_3
       rect:
         serializedVersion: 2
-        x: 532
-        y: 558
-        width: 152
-        height: 266
+        x: 529
+        y: 556
+        width: 149
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e655de9c17b156160800000000000000
-      internalID: 7018045769859814766
+      spriteID: fed8de6333dbe4d4081d0800754554c7
+      internalID: -222987577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_4
+      name: objetoPareado_4
       rect:
         serializedVersion: 2
-        x: 709
-        y: 558
-        width: 152
-        height: 266
+        x: 706
+        y: 556
+        width: 149
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5b1d6e61578ca47a0800000000000000
-      internalID: -6392076315878043211
+      spriteID: 854c0d4af0cd9c642b72cc9ff225e579
+      internalID: 1239849290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_5
+      name: objetoPareado_5
       rect:
         serializedVersion: 2
-        x: 886
-        y: 558
-        width: 152
-        height: 266
+        x: 882
+        y: 556
+        width: 149
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d86aa28f701debfb0800000000000000
-      internalID: -4630033534731770227
+      spriteID: fdc8ff8380b7b234f8ebedb7e9a32c46
+      internalID: -1883711154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_6
+      name: objetoPareado_6
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 558
-        width: 152
-        height: 266
+        x: 1058
+        y: 556
+        width: 149
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fb383e81caa788960800000000000000
-      internalID: 7604462850385609663
+      spriteID: 532856a49a35d5441a22aced6cdc99eb
+      internalID: 681246467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_7
+      name: objetoPareado_7
       rect:
         serializedVersion: 2
         x: 0
-        y: 279
-        width: 151
-        height: 267
+        y: 278
+        width: 149
+        height: 264
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0a12e214b5165cf50800000000000000
-      internalID: 6901029048578613664
+      spriteID: 91526595a3356164cb8be83718a619e9
+      internalID: 781461122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_15
+      name: objetoPareado_15
       rect:
         serializedVersion: 2
         x: 177
-        y: 279
-        width: 152
-        height: 267
+        y: 278
+        width: 149
+        height: 264
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0c3d448452252dc20800000000000000
-      internalID: 3229734202857804736
+      spriteID: c4e565194827bdc408e7ea11f860eb17
+      internalID: -1260658409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_2
+      name: objetoPareado_2
       rect:
         serializedVersion: 2
-        x: 354
-        y: 279
-        width: 152
-        height: 267
+        x: 353
+        y: 278
+        width: 149
+        height: 264
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 926afa8b3528adc60800000000000000
-      internalID: 7843724997111555625
+      spriteID: a4c557a89a168be4b86481ac71a97d7c
+      internalID: -1597080829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_10
+      name: objetoPareado_10
       rect:
         serializedVersion: 2
-        x: 532
-        y: 279
-        width: 152
-        height: 267
+        x: 529
+        y: 278
+        width: 149
+        height: 264
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8ce8eb2f4aab4bcd0800000000000000
-      internalID: -2543202671947510072
+      spriteID: 59dc39eb22852664ca8d9d08bafd7ff1
+      internalID: -824632492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_11
+      name: objetoPareado_11
       rect:
         serializedVersion: 2
-        x: 709
-        y: 279
-        width: 152
-        height: 267
+        x: 706
+        y: 278
+        width: 149
+        height: 264
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b7527ced6cdeba8e0800000000000000
-      internalID: -1680988597495847557
+      spriteID: 9ff339a9e32e96b41b9f7fdb9cdbd7c4
+      internalID: -1529016737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_12
+      name: objetoPareado_12
       rect:
         serializedVersion: 2
-        x: 886
-        y: 279
-        width: 152
-        height: 267
+        x: 882
+        y: 278
+        width: 149
+        height: 264
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 552a6963c80be8490800000000000000
-      internalID: -7742056593145552299
+      spriteID: 638ff85f875db0841a547427c11a7843
+      internalID: 1067833983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_13
+      name: objetoPareado_13
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 279
-        width: 152
-        height: 267
+        x: 1058
+        y: 278
+        width: 149
+        height: 264
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5638d9517a7af7cd0800000000000000
-      internalID: -2558141727259131035
+      spriteID: e76c463e17354324dac2d2f7e0ff1989
+      internalID: 1889016128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_14
+      name: objetoPareado_14
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 151
-        height: 266
+        y: 1
+        width: 149
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0ee397325f784e840800000000000000
-      internalID: 5252472552352726752
+      spriteID: 5dda2d789d400ef4b97dcaaaf219bbf8
+      internalID: -1990376072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_8
+      name: objetoPareado_8
       rect:
         serializedVersion: 2
-        x: 180
-        y: 0
-        width: 152
-        height: 266
+        x: 177
+        y: 1
+        width: 149
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 52fd81173b0b45500800000000000000
-      internalID: 384126152976424741
+      spriteID: 4d8e30b1a13e2f24ea7a347fdb110afb
+      internalID: -633381259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_16
+      name: objetoPareado_16
       rect:
         serializedVersion: 2
-        x: 354
-        y: 0
-        width: 152
-        height: 266
+        x: 353
+        y: 1
+        width: 149
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 207daab1717e55d20800000000000000
-      internalID: 3266771191161607938
+      spriteID: 2d64ac9ab17222044860718a7d7b5eab
+      internalID: -81558030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_19
+      name: objetoPareado_19
       rect:
         serializedVersion: 2
-        x: 532
-        y: 0
-        width: 152
-        height: 266
+        x: 529
+        y: 1
+        width: 149
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c558a207923673cc0800000000000000
-      internalID: -3731404736626522788
+      spriteID: cf894c46104777442a5691355e433d1f
+      internalID: -1903922518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_20
+      name: objetoPareado_20
       rect:
         serializedVersion: 2
-        x: 709
-        y: 0
-        width: 152
-        height: 266
+        x: 706
+        y: 1
+        width: 149
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e94962c4a291e86f0800000000000000
-      internalID: -680578824229448546
+      spriteID: 28ea1bc0fa799b64494aebf7735ea576
+      internalID: -1871879978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_17
+      name: objetoPareado_17
       rect:
         serializedVersion: 2
-        x: 886
-        y: 0
-        width: 152
-        height: 266
+        x: 882
+        y: 1
+        width: 149
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b303ca8b4b05a95c0800000000000000
-      internalID: -4207962164701679557
+      spriteID: 53416fd5f9cbc7448939c4f6b7934963
+      internalID: -1940849267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ObjetoPareado_18
+      name: objetoPareado_18
       rect:
         serializedVersion: 2
-        x: 1064
+        x: 1057
         y: 0
-        width: 152
-        height: 266
+        width: 149
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 73e60fca574996930800000000000000
-      internalID: 4137000965850033719
+      spriteID: 6811bb2cd8ea9cc4dab3a5ffa9a8f2c4
+      internalID: 1683418712
       vertices: []
       indices: 
       edges: []
@@ -625,7 +625,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9a5fdb63802e6f14981c3d33e26d5d9c
+    spriteID: d8fc35a35b97b78468d0a578ce3ef09d
     internalID: 0
     vertices: []
     indices: 
@@ -635,27 +635,28 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ObjetoPareado_0: -7308144785926150170
-      ObjetoPareado_1: -1366968557280159266
-      ObjetoPareado_10: -2543202671947510072
-      ObjetoPareado_11: -1680988597495847557
-      ObjetoPareado_12: -7742056593145552299
-      ObjetoPareado_13: -2558141727259131035
-      ObjetoPareado_14: 5252472552352726752
-      ObjetoPareado_15: 3229734202857804736
-      ObjetoPareado_16: 3266771191161607938
-      ObjetoPareado_17: -4207962164701679557
-      ObjetoPareado_18: 4137000965850033719
-      ObjetoPareado_19: -3731404736626522788
-      ObjetoPareado_2: 7843724997111555625
-      ObjetoPareado_20: -680578824229448546
-      ObjetoPareado_3: 7018045769859814766
-      ObjetoPareado_4: -6392076315878043211
-      ObjetoPareado_5: -4630033534731770227
-      ObjetoPareado_6: 7604462850385609663
-      ObjetoPareado_7: 6901029048578613664
-      ObjetoPareado_8: 384126152976424741
-      ObjetoPareado_9: -7672120627631934379
+      1: -1260658409
+      objetoPareado_0: -195918663
+      objetoPareado_1: 861575925
+      objetoPareado_10: -824632492
+      objetoPareado_11: -1529016737
+      objetoPareado_12: 1067833983
+      objetoPareado_13: 1889016128
+      objetoPareado_14: -1990376072
+      objetoPareado_15: -1260658409
+      objetoPareado_16: -81558030
+      objetoPareado_17: -1940849267
+      objetoPareado_18: 1683418712
+      objetoPareado_19: -1903922518
+      objetoPareado_2: -1597080829
+      objetoPareado_20: -1871879978
+      objetoPareado_3: -222987577
+      objetoPareado_4: 1239849290
+      objetoPareado_5: -1883711154
+      objetoPareado_6: 681246467
+      objetoPareado_7: 781461122
+      objetoPareado_8: -633381259
+      objetoPareado_9: 1688365634
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

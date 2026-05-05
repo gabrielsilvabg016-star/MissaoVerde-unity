@@ -518,7 +518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   primeiroBotao: {fileID: 820772525}
-  NavSom: 1
+  NavSom: 0
   SomMovimento: {fileID: 8300000, guid: f94c74bf4ea271942ac4042b2e9a0679, type: 3}
 --- !u!82 &273864346
 AudioSource:
