@@ -5,19 +5,18 @@ using UnityEngine.UI;
 public class InputSwitcher : MonoBehaviour
 {
     public GameObject primeiroBotao;
-    public Toggle toggleSom;
+    public Toggle toggleSom; //e apenas utilizado na fase inicial para setar o valor natural do toggle de som, pode ignorar nas outras fases
     private bool Mouse = true;
-    public bool NavSom = false; //se ativado toca som ao navegar pelos objetos
+    public bool NavSom = false; //se ativado toca som de navegar de cada objeto
     private AudioSource audioSource;
-    public AudioClip SomMovimento;
     private GameObject ultimoSelect;
 
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
-        //carrega
+        //carrega valor do PlayerPrefs
         NavSom = (PlayerPrefs.GetInt("NavSom") != 0);
-        if(toggleSom)
+
+        if(toggleSom)//deixa o toggle da fase inicial visualmente ativo
         {
             toggleSom.isOn = NavSom;
         }
@@ -103,7 +102,14 @@ public class InputSwitcher : MonoBehaviour
             {
                 if(current != null)
                 {
-                    audioSource.PlayOneShot(SomMovimento);
+                    audioSource = current.GetComponent<AudioSource>();
+
+                    if(audioSource != null && audioSource.clip != null)
+                    {
+                        audioSource.Play();
+                        //audioSource.PlayOneShot toca o som sem interromper outro som que esteja tocando
+                        //audioSource.paly() toca o som principal interrompendo qualquer outro som que esse audioSource esteja tocando
+                    }
                 }
                 ultimoSelect = current;
             }
