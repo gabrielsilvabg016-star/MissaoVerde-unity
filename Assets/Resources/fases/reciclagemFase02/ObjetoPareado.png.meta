@@ -156,6 +156,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -534,7 +547,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objetoPareado_19
+      name: objetoPareado_17
       rect:
         serializedVersion: 2
         x: 529
@@ -556,10 +569,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objetoPareado_20
+      name: objetoPareado_18
       rect:
         serializedVersion: 2
-        x: 706
+        x: 705
         y: 1
         width: 149
         height: 263
@@ -578,7 +591,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objetoPareado_17
+      name: objetoPareado_19
       rect:
         serializedVersion: 2
         x: 882
@@ -600,7 +613,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objetoPareado_18
+      name: objetoPareado_20
       rect:
         serializedVersion: 2
         x: 1057
@@ -645,11 +658,11 @@ TextureImporter:
       objetoPareado_14: -1990376072
       objetoPareado_15: -1260658409
       objetoPareado_16: -81558030
-      objetoPareado_17: -1940849267
-      objetoPareado_18: 1683418712
-      objetoPareado_19: -1903922518
+      objetoPareado_17: -1903922518
+      objetoPareado_18: -1871879978
+      objetoPareado_19: -1940849267
       objetoPareado_2: -1597080829
-      objetoPareado_20: -1871879978
+      objetoPareado_20: 1683418712
       objetoPareado_3: -222987577
       objetoPareado_4: 1239849290
       objetoPareado_5: -1883711154

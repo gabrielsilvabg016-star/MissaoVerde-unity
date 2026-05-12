@@ -159,6 +159,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -537,7 +550,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objeto_17
+      name: objeto_19
       rect:
         serializedVersion: 2
         x: 683
@@ -559,7 +572,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objeto_18
+      name: objeto_20
       rect:
         serializedVersion: 2
         x: 850
@@ -581,7 +594,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objeto_19
+      name: objeto_17
       rect:
         serializedVersion: 2
         x: 408
@@ -603,7 +616,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objeto_20
+      name: objeto_18
       rect:
         serializedVersion: 2
         x: 547
@@ -647,11 +660,11 @@ TextureImporter:
       objeto_14: 8702496771944565506
       objeto_15: 3607774043045398117
       objeto_16: 5077737059710181130
-      objeto_17: 5964861178230570837
-      objeto_18: 4504949658497704701
-      objeto_19: -3806493395246010339
+      objeto_17: -3806493395246010339
+      objeto_18: -2895456224029572460
+      objeto_19: 5964861178230570837
       objeto_2: -6895360226104230372
-      objeto_20: -2895456224029572460
+      objeto_20: 4504949658497704701
       objeto_3: 4431886654291415652
       objeto_4: 4110796176908228759
       objeto_5: 1509090930605876807

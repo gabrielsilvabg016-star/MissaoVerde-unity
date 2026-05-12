@@ -85,7 +85,7 @@ public class ControllerSetas : MonoBehaviour
             {
                 Sprite[] arraySprites = Resources.LoadAll<Sprite>("fases/reciclagemFase1/objetoPareado"); //so alterar esse caminho para alterar a imagem pareada;
                 Debug.Log("entrou no if de objetoPareado");
-                Debug.Log(arraySprites.Length);
+                Debug.Log("largura do array: "+arraySprites.Length);
                 foreach(Sprite novo in arraySprites)
                     {
                         string novoSprite = novo.name.Split('_')[1];

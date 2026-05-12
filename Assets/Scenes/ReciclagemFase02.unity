@@ -2987,7 +2987,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: dividirSprite
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: itensPorParte
@@ -3035,7 +3035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: niveis.Array.data[0].quantidadeElementos
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: niveis.Array.data[1].quantidadeElementos
@@ -3181,6 +3181,9 @@ PrefabInstance:
       addedObject: {fileID: 1152469855}
     - targetCorrespondingSourceObject: {fileID: 2256387264609103863, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1152469862}
+    - targetCorrespondingSourceObject: {fileID: 2256387264609103863, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1152469856}
   m_SourcePrefab: {fileID: 100100000, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
 --- !u!1 &1152469853 stripped
@@ -3208,7 +3211,6 @@ MonoBehaviour:
   primeiroBotao: {fileID: 1152469854}
   toggleSom: {fileID: 0}
   NavSom: 0
-  SomMovimento: {fileID: 8300000, guid: f94c74bf4ea271942ac4042b2e9a0679, type: 3}
 --- !u!82 &1152469856
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3306,6 +3308,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1152469862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152469853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969c6af7d0edef1469dcb69f2dc801a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  painelObjeto: {fileID: 1419021012}
+  painelSombra: {fileID: 337112768}
 --- !u!1 &1219496534
 GameObject:
   m_ObjectHideFlags: 0

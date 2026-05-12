@@ -520,6 +520,20 @@ MonoBehaviour:
   primeiroBotao: {fileID: 820772525}
   toggleSom: {fileID: 0}
   NavSom: 1
+--- !u!114 &273864346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273864340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969c6af7d0edef1469dcb69f2dc801a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  painelObjeto: {fileID: 1029305947}
+  painelSombra: {fileID: 631260243}
 --- !u!1001 &318409128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1081,7 +1095,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 522158400}
+      - m_Target: {fileID: 112026192}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -1516,7 +1530,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 604994669}
+      - m_Target: {fileID: 112026192}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -2137,7 +2151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: dividirSprite
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: itensPorParte
@@ -2185,7 +2199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: niveis.Array.data[0].quantidadeElementos
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: niveis.Array.data[1].quantidadeElementos
@@ -2329,6 +2343,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2256387264609103863, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 273864342}
+    - targetCorrespondingSourceObject: {fileID: 2256387264609103863, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 273864346}
     - targetCorrespondingSourceObject: {fileID: 4721112946330506286, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 554233155}
@@ -2561,7 +2578,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1076642166}
+      - m_Target: {fileID: 112026192}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -3167,7 +3184,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1245956422}
+      - m_Target: {fileID: 112026192}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -3802,8 +3819,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f94c74bf4ea271942ac4042b2e9a0679, type: 3}
-  m_Resource: {fileID: 8300000, guid: f94c74bf4ea271942ac4042b2e9a0679, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

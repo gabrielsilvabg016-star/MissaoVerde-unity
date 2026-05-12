@@ -156,6 +156,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -534,7 +547,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_19
+      name: sombra_17
       rect:
         serializedVersion: 2
         x: 530
@@ -556,7 +569,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_20
+      name: sombra_18
       rect:
         serializedVersion: 2
         x: 705
@@ -578,7 +591,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_17
+      name: sombra_19
       rect:
         serializedVersion: 2
         x: 880
@@ -600,7 +613,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_18
+      name: sombra_20
       rect:
         serializedVersion: 2
         x: 1055
@@ -644,11 +657,11 @@ TextureImporter:
       sombra_14: 441581982
       sombra_15: -622611570
       sombra_16: 2047447600
-      sombra_17: -1312587310
-      sombra_18: -1502358280
-      sombra_19: 1724314322
+      sombra_17: 1724314322
+      sombra_18: -1122322814
+      sombra_19: -1312587310
       sombra_2: -310170910
-      sombra_20: -1122322814
+      sombra_20: -1502358280
       sombra_3: 2106022836
       sombra_4: -1489772512
       sombra_5: 1466218212

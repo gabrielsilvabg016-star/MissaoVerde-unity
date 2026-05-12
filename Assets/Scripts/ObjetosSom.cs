@@ -1,4 +1,6 @@
+using UnityEngine.UI;
 using UnityEngine;
+using Mono.Cecil;
 
 public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e sombras e insere um audioClip neles
 {
@@ -6,7 +8,7 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
     public GameObject painelSombra;
     private bool NavSom;
 
-    void start()
+    void Start()
     {
         //carrega valor do PlayerPrefs
         NavSom = (PlayerPrefs.GetInt("NavSom") != 0);
@@ -20,7 +22,8 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
         {
             GameObject filho = painelObjeto.transform.GetChild(x).gameObject; //objeto
             AudioSource saidaAudio = filho.GetComponent<AudioSource>(); //saida de audio
-            catchSomObjeto(filho, saidaAudio);
+            CatchSomObjeto(filho, saidaAudio);
+            Debug.Log("terminou no for de objeto som");
         }
 
         //lembrar que lista de objetos e maior que sombras//
@@ -29,32 +32,31 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
         {
             GameObject filho = painelSombra.transform.GetChild(x).gameObject; //objeto
             AudioSource saidaAudio = filho.GetComponent<AudioSource>(); //saida de audio
-            catchSomSombra(filho, saidaAudio);
+            CatchSomSombra(filho, saidaAudio);
         }
     }
 
-    void catchSomObjeto(GameObject filho, AudioSource saidaAudio)
+    void CatchSomObjeto(GameObject filho, AudioSource saidaAudio)
     {
         Image img = filho.GetComponent<Image>(); //sprite
         string nomeObjeto = img.sprite.name;
         nomeObjeto = nomeObjeto.Split('_')[1];
-
-        for(int x = 0; x<painelObjeto.transform.childCount; x++)
-        {
-            AudioClip clip = Resources.Load<AudioClip>("sonsGerais/sonsAuxiliares/audio_"+x);//procura na pasta sonsAuxiliares
         
-            if(saidaAudio != null && clip != null)
-            {
-                if(x.ToString() == nomeObjeto)
-                {
-                    saidaAudio.clip = clip;
-                }
-            }
-        }
+        AudioClip clip = Resources.Load<AudioClip>("sonsGerais/sonsAuxiliares/Objetos/audioObjeto_"+nomeObjeto);//procura na pasta sonsAuxiliares sons objetos
+        Debug.Log("nome do audio clip objeto: "+clip.name);
+
+        saidaAudio.clip = clip;
     }
 
-    void catchSomSombra(GameObject filho, AudioSource saidaAudio)
+    void CatchSomSombra(GameObject filho, AudioSource saidaAudio)
     {
-        //continuar montando depois, mesma logica do catchSomObjeto();
+        Image img = filho.GetComponent<Image>();
+        string nomeObjeto = img.sprite.name;
+        nomeObjeto = nomeObjeto.Split('_')[1];
+
+        AudioClip clip = Resources.Load<AudioClip>("sonsGerais/sonsAuxiliares/Sombras/audioSombra_"+nomeObjeto);//procura na pasta sonsAuxiliares sons sombra
+        Debug.Log("nome do audio clip sombra: "+clip.name);
+
+        saidaAudio.clip = clip;
     }
 }
