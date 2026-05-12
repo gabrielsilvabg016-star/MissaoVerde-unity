@@ -12,14 +12,16 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
     {
         //carrega valor do PlayerPrefs
         NavSom = (PlayerPrefs.GetInt("NavSom") != 0);
-
-        if(!NavSom)//caso NavSom esteja desativado esse script faz nada
+        Debug.Log("carregou o PlayerPrefs: "+NavSom);
+        if(NavSom == false)//caso NavSom esteja desativado esse script faz nada
         {
+            Debug.Log("entoru no if de navsom");
             return;
         }
 
-        for(int x =0; x<painelObjeto.transform.childCount; x++)//objetos
+        for(int x = 0; x<painelObjeto.transform.childCount; x++)//objetos
         {
+            Debug.Log("entrou no for");
             GameObject filho = painelObjeto.transform.GetChild(x).gameObject; //objeto
             AudioSource saidaAudio = filho.GetComponent<AudioSource>(); //saida de audio
             CatchSomObjeto(filho, saidaAudio);
@@ -38,6 +40,7 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
 
     void CatchSomObjeto(GameObject filho, AudioSource saidaAudio)
     {
+        Debug.Log("entrou no CatchSomObjeto");
         Image img = filho.GetComponent<Image>(); //sprite
         string nomeObjeto = img.sprite.name;
         nomeObjeto = nomeObjeto.Split('_')[1];
