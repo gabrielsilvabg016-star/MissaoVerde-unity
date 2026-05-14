@@ -51,15 +51,22 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
         saidaAudio.clip = clip;
     }
 
-    void CatchSomSombra(GameObject filho, AudioSource saidaAudio)
+    void CatchSomSombra(GameObject filho, AudioSource saidaAudio)//roda uma vez para cada sombra
     {
+        Debug.Log("entrou no CatchSomSombra");
+        AudioClip[] audios;//array de audios
         Image img = filho.GetComponent<Image>();
-        string nomeObjeto = img.sprite.name;
-        nomeObjeto = nomeObjeto.Split('_')[1];
 
-        AudioClip clip = Resources.Load<AudioClip>("sonsGerais/sonsAuxiliares/Sombras/audioSombra_"+nomeObjeto);//procura na pasta sonsAuxiliares sons sombra
-        Debug.Log("nome do audio clip sombra: "+clip.name);
+        int indiceSombra;
+        int indiceAudio;
+        string nomeSombra = img.sprite.name;
 
-        saidaAudio.clip = clip;
+        audios = Resources.LoadAll<AudioClip>("sonsGerais/sonsAuxiliares/Sombras");//bota todos os audios no array
+        indiceSombra = int.Parse(nomeSombra.Split('_')[1]); //transforma o numero da sombra em int
+        indiceAudio = indiceSombra % audios.Length; //calcula indice divisivel pelo tamanho do array
+
+        saidaAudio.clip = audios[indiceAudio]; //em teoria roda, bota o audio relacionado ao resultado do calculo de indice
+        Debug.Log("nome do audio: " + audios[indiceAudio].name);
+        Debug.Log("Saiu do CatchSomSombra");
     }
 }
