@@ -21,6 +21,8 @@ public class ControllerSetas : MonoBehaviour
     private AudioSource audioSource;
     public AudioClip somAcerto;
     public AudioClip somErro;
+    private bool travaBotao = false;
+    private int numObjetos;
 
     void Awake()
     {
@@ -28,7 +30,9 @@ public class ControllerSetas : MonoBehaviour
     }
     void Start()
     {
-        for(int x = 0; x<painelObjetos.transform.childCount; x++)//captura os filhos do painel, pega o elemento button e adiciona a função ClicarLixo
+        numObjetos = painelObjetos.transform.childCount;
+
+        for(int x = 0; x<numObjetos; x++)//captura os filhos do painel, pega o elemento button e adiciona a função ClicarLixo
         {
             GameObject filho = painelObjetos.transform.GetChild(x).gameObject;
             Button btn = filho.GetComponent<Button>();
@@ -36,7 +40,7 @@ public class ControllerSetas : MonoBehaviour
             btn.onClick.AddListener(() => ClicarLixo(filho));
         }
 
-        for(int x = 0; x<painelLixeiras.transform.childCount; x++)//captura os filhos do painel, pega o elemento button e adiciona a função ClicarLixeira
+        for(int x = 0; x<numObjetos; x++)//captura os filhos do painel, pega o elemento button e adiciona a função ClicarLixeira
         {
             GameObject filho = painelLixeiras.transform.GetChild(x).gameObject;
             Button btn = filho.GetComponent<Button>();
@@ -45,6 +49,23 @@ public class ControllerSetas : MonoBehaviour
         }
 
         audioSource = GetComponent<AudioSource>();
+    }
+
+    void Update()
+    {
+        //teste so para ver se vai funcionar alternando entre mouse e teclado
+        //o pareamento com mouse não da destroy no objeto, concertar isso depois
+        int quantItems = painelObjetos.transform.childCount;
+        if(quantItems != numObjetos)
+        {
+            Debug.Log("valor do quantItems: "+quantItems);
+            numObjetos = quantItems;
+
+            if(travaBotao == false && numObjetos <= 0)
+            {
+                AtivarBotaoProxNivel();
+            }
+        }
     }
 
     void ClicarLixo(GameObject lixo)
@@ -59,6 +80,10 @@ public class ControllerSetas : MonoBehaviour
         Image img = lixeira.GetComponent<Image>();
         lixeira.name = "lixeira";
         Debug.Log("Clicou em " + lixeira.name+ " imagem: "+img.sprite.name);
+        if(lixoSelect == null)
+        {
+            Debug.Log("Selecione um lixo antes de selecionar uma lixeira");
+        }
         Pareamento(lixeira);
         Debug.Log(painelObjetos.transform.childCount);
         if(painelObjetos.transform.childCount <= 1)
@@ -102,6 +127,7 @@ public class ControllerSetas : MonoBehaviour
         }
         else
         {
+            lixoSelect = null;
             audioSource.PlayOneShot(somErro);
             Debug.Log("Seleção errada!");
         }
@@ -109,6 +135,7 @@ public class ControllerSetas : MonoBehaviour
 
     void AtivarBotaoProxNivel()
     {
+        travaBotao = true;
         Debug.Log("entrou na função ativar botão");
         proxNivel.SetActive(true);
     }
