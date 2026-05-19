@@ -6,19 +6,14 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
 {
     public GameObject painelObjeto;
     public GameObject painelSombra;
-    private bool NavSom;
 
     void Start()
     {
-        //carrega valor do PlayerPrefs
-        NavSom = (PlayerPrefs.GetInt("NavSom") != 0);
-        Debug.Log("carregou o PlayerPrefs: "+NavSom);
-        if(NavSom == false)//caso NavSom esteja desativado esse script faz nada
-        {
-            Debug.Log("entoru no if de navsom");
-            return;
-        }
+        ConfigurarAudio();
+    }
 
+    public void ConfigurarAudio()
+    {
         for(int x = 0; x<painelObjeto.transform.childCount; x++)//objetos
         {
             Debug.Log("entrou no for");

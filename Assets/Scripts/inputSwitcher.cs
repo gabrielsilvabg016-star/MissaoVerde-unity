@@ -7,14 +7,16 @@ public class InputSwitcher : MonoBehaviour
     public GameObject primeiroBotao;
     public Toggle toggleSom; //e apenas utilizado na fase inicial para setar o valor natural do toggle de som, pode ignorar nas outras fases
     private bool Mouse = true;
-    public bool NavSom = false; //se ativado toca som de navegar de cada objeto
+    public bool NavSom; //se ativado toca som de navegar de cada objeto
     private AudioSource audioSource;
     private GameObject ultimoSelect;
 
     void Start()
     {
         //carrega valor do PlayerPrefs
-        NavSom = (PlayerPrefs.GetInt("NavSom") != 0);
+        //playerPrefs funciona como um minibanco de dados do jogo, se da ultima vez o navsom foi ativado, ficou salvo la dentro como ativo
+        //e vai sempre carregar ativo ate que seja desativado na tela inicial no toggle de som, independente do toggle do som
+        NavSom = PlayerPrefs.GetInt("NavSom", 0) != 0;
 
         if(toggleSom)//deixa o toggle da fase inicial visualmente ativo
         {
@@ -106,9 +108,10 @@ public class InputSwitcher : MonoBehaviour
 
                     if(audioSource != null && audioSource.clip != null)
                     {
-                        audioSource.Play();
+                        AudioController.instance.PlayAudio(audioSource);
+                        //audioSource.Play();
                         //audioSource.PlayOneShot toca o som sem interromper outro som que esteja tocando
-                        //audioSource.paly() toca o som principal interrompendo qualquer outro som que esse audioSource esteja tocando
+                        //audioSource.Play() toca o som principal interrompendo qualquer outro som que esse audioSource esteja tocando
                     }
                 }
                 ultimoSelect = current;
