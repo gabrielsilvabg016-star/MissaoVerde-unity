@@ -23,6 +23,8 @@ public class ControllerSetas : MonoBehaviour
     public AudioClip somErro;
     private bool travaBotao = false;
     private int numObjetos;
+    private int numSombras;
+    private int quantItems;
 
     void Awake()
     {
@@ -31,6 +33,7 @@ public class ControllerSetas : MonoBehaviour
     void Start()
     {
         numObjetos = painelObjetos.transform.childCount;
+        numSombras = painelLixeiras.transform.childCount;
 
         for(int x = 0; x<numObjetos; x++)//captura os filhos do painel, pega o elemento button e adiciona a função ClicarLixo
         {
@@ -40,7 +43,7 @@ public class ControllerSetas : MonoBehaviour
             btn.onClick.AddListener(() => ClicarLixo(filho));
         }
 
-        for(int x = 0; x<numObjetos; x++)//captura os filhos do painel, pega o elemento button e adiciona a função ClicarLixeira
+        for(int x = 0; x<numSombras; x++)//captura os filhos do painel, pega o elemento button e adiciona a função ClicarLixeira
         {
             GameObject filho = painelLixeiras.transform.GetChild(x).gameObject;
             Button btn = filho.GetComponent<Button>();
@@ -48,14 +51,30 @@ public class ControllerSetas : MonoBehaviour
             btn.onClick.AddListener(() => ClicarLixeira(filho));
         }
 
-        audioSource = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();//saida de audio geral para o sistema de pareamento
     }
 
     void Update()
     {
-        //teste so para ver se vai funcionar alternando entre mouse e teclado
-        //o pareamento com mouse não da destroy no objeto, concertar isso depois
-        int quantItems = painelObjetos.transform.childCount;
+        quantItems = painelObjetos.transform.childCount;
+
+        if(quantItems > 0)
+        {
+            //Debug.Log("entrou no if quantItens");
+            for(int x = 0; x<painelObjetos.transform.childCount; x++)
+            {
+                GameObject filho = painelObjetos.transform.GetChild(x).gameObject;
+
+                if(!filho.activeSelf)
+                {
+                    //Debug.Log("entrou no if lixoSelect");
+                    Destroy(filho);
+                    quantItems -= 1;
+                    break;
+                }
+            }
+        }
+
         if(quantItems != numObjetos)
         {
             Debug.Log("valor do quantItems: "+quantItems);
@@ -96,6 +115,7 @@ public class ControllerSetas : MonoBehaviour
     {
         Image imgLixo = lixoSelect.GetComponent<Image>();
         Image imgLixeira = lixeira.GetComponent<Image>();
+        //Button btn = lixeira.GetComponent<Button>();
 
         string nomeLixo = imgLixo.sprite.name;
         string nomeLixeira = imgLixeira.sprite.name;
@@ -109,8 +129,8 @@ public class ControllerSetas : MonoBehaviour
             if(substituirAposParear)
             {
                 Sprite[] arraySprites = Resources.LoadAll<Sprite>("fases/reciclagemFase1/objetoPareado"); //so alterar esse caminho para alterar a imagem pareada;
-                Debug.Log("entrou no if de objetoPareado");
-                Debug.Log("largura do array: "+arraySprites.Length);
+                //Debug.Log("entrou no if de objetoPareado");
+                //Debug.Log("largura do array: "+arraySprites.Length);
                 foreach(Sprite novo in arraySprites)
                     {
                         string novoSprite = novo.name.Split('_')[1];
@@ -124,6 +144,7 @@ public class ControllerSetas : MonoBehaviour
             audioSource.PlayOneShot(somAcerto);
             Destroy(lixoSelect);
             lixoSelect = null;
+            //btn.interactable = false; //deixar false impede a navegação por esse objeto;
         }
         else
         {

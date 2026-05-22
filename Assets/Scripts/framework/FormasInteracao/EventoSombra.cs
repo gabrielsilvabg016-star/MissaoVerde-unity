@@ -73,9 +73,12 @@ namespace Ludus.SDK.Framework
                 //Compara o game tag do objeto que eu to arrastando com o objeto parado
                 //aqui tem q testar o final da imagem e e da sombra pra ver se é igual
                 Image imgObjeto, imgSombra;
+                GameObject objetoArrastado;
+
                 try
                 {
                     imgObjeto = eventData.pointerDrag.gameObject.GetComponent<Image>();
+                    objetoArrastado = eventData.pointerDrag.gameObject;
                     imgSombra = gameObject.GetComponent<Image>();
 
 
@@ -107,7 +110,7 @@ namespace Ludus.SDK.Framework
                     DragAndDrop.colouCerto = true;
                     Controle.configuracao.AtualizarAcerto();
                     Controle.configuracao.TocarSom('A');   //caso tenha na pasta de sons, tocar som de acerto
-
+                    objetoArrastado.SetActive(false);
 
                 }
             }

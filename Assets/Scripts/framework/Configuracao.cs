@@ -201,14 +201,11 @@ namespace Ludus.SDK.Framework
     
         public virtual void AtualizarAcerto()
         {
-            //botar um destroy aqui ou alguma forma de excluir o objeto ao parear via mouse
             botaoTroca.gameObject.SetActive(true);
-
         }
         public virtual void AtualizarErro()
         {
             //aqui vai a atualização da pontuação, por enquanto n faz nada
-
         }
 
         public virtual void ZerarExibidos()

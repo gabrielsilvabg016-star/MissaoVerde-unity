@@ -127,7 +127,6 @@ public class PegaeSolta : BaseInteracao, IPointerClickHandler
                                 imgSombra.sprite = imgObjeto.sprite;
                                 gameObject.SetActive(false); // desativa o GameObject atual
                             }
-                            //botar um destroy aqui ou alguma forma de excluir o objeto ao parear via mouse
                             Controle.configuracao.AtualizarAcerto();
                             Controle.configuracao.TocarSom('A');
                             colouCerto = true;
