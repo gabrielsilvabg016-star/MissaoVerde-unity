@@ -519,7 +519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   primeiroBotao: {fileID: 820772525}
   toggleSom: {fileID: 0}
-  NavSom: 0
+  NavSom: 1
 --- !u!114 &273864346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1261,8 +1261,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f94c74bf4ea271942ac4042b2e9a0679, type: 3}
-  m_Resource: {fileID: 8300000, guid: f94c74bf4ea271942ac4042b2e9a0679, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9885f9acd965a4440970663489edc506, type: 3}
+  m_Resource: {fileID: 8300000, guid: 9885f9acd965a4440970663489edc506, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1624,8 +1624,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f94c74bf4ea271942ac4042b2e9a0679, type: 3}
-  m_Resource: {fileID: 8300000, guid: f94c74bf4ea271942ac4042b2e9a0679, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5174b19bba9572541816f26c561e71a8, type: 3}
+  m_Resource: {fileID: 8300000, guid: 5174b19bba9572541816f26c561e71a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3968,8 +3968,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9250425e726f234498100c52b767f73b, type: 3}
+  m_Resource: {fileID: 8300000, guid: 9250425e726f234498100c52b767f73b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

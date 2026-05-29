@@ -16,6 +16,7 @@ public class InputSwitcher : MonoBehaviour
         //carrega valor do PlayerPrefs
         //playerPrefs funciona como um minibanco de dados do jogo, se da ultima vez o navsom foi ativado, ficou salvo la dentro como ativo
         //e vai sempre carregar ativo ate que seja desativado na tela inicial no toggle de som, independente do toggle do som
+        
         NavSom = PlayerPrefs.GetInt("NavSom", 0) != 0;
 
         if(toggleSom)//deixa o toggle da fase inicial visualmente ativo
@@ -28,6 +29,7 @@ public class InputSwitcher : MonoBehaviour
     {
         DetectMouse();//mouse = hover
         DetectTeclado();//teclado = seleção
+        Debug.Log(EventSystem.current.currentSelectedGameObject);
     }
 
     void DetectMouse()
@@ -91,6 +93,7 @@ public class InputSwitcher : MonoBehaviour
 
             if (NavSom)
             {
+                Debug.Log("entrou no if de tocarSom");
                 TocarSom();
             }
         }
@@ -99,7 +102,6 @@ public class InputSwitcher : MonoBehaviour
     void TocarSom()
     {
         GameObject current = EventSystem.current.currentSelectedGameObject;
-                
             if(current != ultimoSelect)
             {
                 if(current != null)
@@ -112,8 +114,10 @@ public class InputSwitcher : MonoBehaviour
                         //audioSource.Play();
                         //audioSource.PlayOneShot toca o som sem interromper outro som que esteja tocando
                         //audioSource.Play() toca o som principal interrompendo qualquer outro som que esse audioSource esteja tocando
-                    }
+                    } else
+                    Debug.Log("audioSource ou audioClip estão nulos");
                 }
+
                 ultimoSelect = current;
             }
     }
@@ -121,6 +125,10 @@ public class InputSwitcher : MonoBehaviour
     public void SetActiveNavSom(bool value)
     {
         NavSom = value;
+        if(NavSom)
+        {
+            ultimoSelect = null;
+        }
         PlayerPrefs.SetInt("NavSom", value ? 1 : 0);
         PlayerPrefs.Save();
     }
