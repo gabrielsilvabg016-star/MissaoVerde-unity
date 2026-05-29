@@ -8,6 +8,8 @@ public class tabelaAuxiliar : MonoBehaviour
     public Button botao;
     public GameObject painel;
 
+    public static bool estado = false;
+
     void Start() 
     {
         if (cnvs != null)
@@ -19,24 +21,27 @@ public class tabelaAuxiliar : MonoBehaviour
 
     public void MostrarImagem()
     {
-        if(cnvs.activeSelf == false) //imagem escondida
+        if(cnvs.activeSelf == false) //tabela escondida
         {
             for(int x = 0; x<painel.transform.childCount; x++)
             {
                 painel.transform.GetChild(x).gameObject.SetActive(false);
             }
 
-            cnvs.SetActive(true); //mostra a imagem
+            estado = true;
+            cnvs.SetActive(true); //mostra a tabela
             //Debug.Log("teste imagem escondida");
             
         }
-        else if (cnvs.activeSelf == true) //imagem mostrada
+        else if (cnvs.activeSelf == true) //tabela mostrada
         {
             for(int x = 0; x<painel.transform.childCount; x++)
             {
                 painel.transform.GetChild(x).gameObject.SetActive(true);
             }
-            cnvs.SetActive(false); //esconde a imagem
+
+            estado = false;
+            cnvs.SetActive(false); //esconde a tabela
             //Debug.Log("teste imagem mostrada");
         }
     }

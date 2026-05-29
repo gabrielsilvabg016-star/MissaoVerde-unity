@@ -29,7 +29,7 @@ public class InputSwitcher : MonoBehaviour
     {
         DetectMouse();//mouse = hover
         DetectTeclado();//teclado = seleção
-        Debug.Log(EventSystem.current.currentSelectedGameObject);
+        //Debug.Log(EventSystem.current.currentSelectedGameObject);
     }
 
     void DetectMouse()
