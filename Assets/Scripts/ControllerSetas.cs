@@ -1,12 +1,6 @@
 using System;
-using System.Collections.Generic;
-using Unity.Entities;
-using Unity.VisualScripting;
-using Unity.VisualScripting.Antlr3.Runtime.Tree;
-using UnityEditor.U2D;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.WSA;
 
 public class ControllerSetas : MonoBehaviour
 {

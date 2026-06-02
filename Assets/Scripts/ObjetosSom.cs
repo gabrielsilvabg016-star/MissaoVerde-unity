@@ -1,6 +1,5 @@
 using UnityEngine.UI;
 using UnityEngine;
-using Mono.Cecil;
 
 public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e sombras e insere um audioClip neles
 {

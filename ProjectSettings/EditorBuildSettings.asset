@@ -114,6 +114,12 @@ EditorBuildSettings:
     path: Assets/Scenes/ReciclagemInicio.unity
     guid: 4144cdeda9bcbd542b2f54743ee13758
   - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: cca2f7f519b79cd4eb6c95a7ccb16bdb
+  - enabled: 1
+    path: Assets/Scenes/opcoes.unity
+    guid: 96be6b9804030ca498a4242ba7a3699b
+  - enabled: 1
     path: Assets/Scenes/ReciclagemIntermediaria.unity
     guid: 28521f4b2cdb74d41b032cf50adac2da
   - enabled: 1
