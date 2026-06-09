@@ -10,6 +10,7 @@ public class InputSwitcher : MonoBehaviour
     public bool NavSom; //se ativado toca som de navegar de cada objeto
     private AudioSource audioSource;
     private GameObject ultimoSelect;
+    public GameObject Icone;
 
     void Start()
     {
@@ -40,6 +41,11 @@ public class InputSwitcher : MonoBehaviour
             if(!Mouse)
             {
                 Mouse = true;
+
+                RectTransform iconePosition = Icone.GetComponent<RectTransform>();//pega o componente de posição
+                iconePosition.position = new Vector3(-1000,0,0);//tira da tela
+                Icone.SetActive(false);//desativa
+
                 EventSystem.current.SetSelectedGameObject(null); //remove a seleção do menu
             }
         }
@@ -50,6 +56,11 @@ public class InputSwitcher : MonoBehaviour
             if(!Mouse)
             {
                 Mouse = true;
+
+                RectTransform iconePosition = Icone.GetComponent<RectTransform>();//pega o componente de posição
+                iconePosition.position = new Vector3(-1000,0,0);//tira da tela
+                Icone.SetActive(false);//desativa
+
                 EventSystem.current.SetSelectedGameObject(null); //remove a seleção do menu
             }
         }
@@ -66,15 +77,24 @@ public class InputSwitcher : MonoBehaviour
             {
                 Mouse = false;
 
+                Icone.SetActive(true);
+                RectTransform iconePosition = Icone.GetComponent<RectTransform>();
+
                 if(EventSystem.current.currentSelectedGameObject == null)
                 {
                     EventSystem.current.SetSelectedGameObject(primeiroBotao);//nenhum botão selecionado, seleciona a variavel primeiro botão
+
+                    GameObject selecionado = EventSystem.current.currentSelectedGameObject;
+                    iconePosition.position = selecionado.transform.position + new Vector3(0,0,0);
                 }
 
                 if (NavSom)
                 {
                     TocarSom();
                 }
+
+                //GameObject selecionado = EventSystem.current.currentSelectedGameObject;
+                //iconePosition.position = EventSystem.current.currentSelectedGameObject.transform.position + new Vector3(-50,0,0);
             }
         }
 
@@ -85,10 +105,19 @@ public class InputSwitcher : MonoBehaviour
             {
                 Mouse = false;
 
+                Icone.SetActive(true);
+                RectTransform iconePosition = Icone.GetComponent<RectTransform>();
+
                 if(EventSystem.current.currentSelectedGameObject == null)
                 {
                     EventSystem.current.SetSelectedGameObject(primeiroBotao);
+
+                    GameObject selecionado = EventSystem.current.currentSelectedGameObject;
+                    iconePosition.position = selecionado.transform.position + new Vector3(0,0,0);
                 }
+                
+                //iconePosition.position = EventSystem.current.currentSelectedGameObject.transform.position + new Vector3(-50,0,0);
+
             }
 
             if (NavSom)
