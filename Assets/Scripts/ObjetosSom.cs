@@ -8,7 +8,7 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
 
     void Start()
     {
-        if(inputSwitcher.NavSom)
+        if(InputSwitcher.NavSom)
         {
             ConfigurarAudio();
         }
