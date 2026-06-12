@@ -7,7 +7,7 @@ public class InputSwitcher : MonoBehaviour
     public GameObject primeiroBotao;
     public Toggle toggleSom; //e apenas utilizado na fase inicial para setar o valor natural do toggle de som, pode ignorar nas outras fases
     private bool Mouse = true;
-    public bool NavSom; //se ativado toca som de navegar de cada objeto
+    public static bool NavSom; //se ativado toca som de navegar de cada objeto
     private AudioSource audioSource;
     private GameObject ultimoSelect;
     public GameObject Icone;
@@ -28,8 +28,8 @@ public class InputSwitcher : MonoBehaviour
 
     void Update()
     {
-        DetectMouse();//mouse = hover
         DetectTeclado();//teclado = seleção
+        DetectMouse();//mouse = hover
         //Debug.Log(EventSystem.current.currentSelectedGameObject);
     }
 
@@ -42,9 +42,12 @@ public class InputSwitcher : MonoBehaviour
             {
                 Mouse = true;
 
-                RectTransform iconePosition = Icone.GetComponent<RectTransform>();//pega o componente de posição
-                iconePosition.position = new Vector3(-1000,0,0);//tira da tela
-                Icone.SetActive(false);//desativa
+                if(Icone)
+                {
+                    RectTransform iconePosition = Icone.GetComponent<RectTransform>();//pega o componente de posição
+                    iconePosition.position = new Vector3(-1000,0,0);//tira da tela
+                    Icone.SetActive(false);//desativa
+                }
 
                 EventSystem.current.SetSelectedGameObject(null); //remove a seleção do menu
             }
@@ -57,9 +60,12 @@ public class InputSwitcher : MonoBehaviour
             {
                 Mouse = true;
 
-                RectTransform iconePosition = Icone.GetComponent<RectTransform>();//pega o componente de posição
-                iconePosition.position = new Vector3(-1000,0,0);//tira da tela
-                Icone.SetActive(false);//desativa
+                if(Icone)
+                {
+                    RectTransform iconePosition = Icone.GetComponent<RectTransform>();//pega o componente de posição
+                    iconePosition.position = new Vector3(-1000,0,0);//tira da tela
+                    Icone.SetActive(false);//desativa
+                }
 
                 EventSystem.current.SetSelectedGameObject(null); //remove a seleção do menu
             }
@@ -77,15 +83,19 @@ public class InputSwitcher : MonoBehaviour
             {
                 Mouse = false;
 
-                Icone.SetActive(true);
-                RectTransform iconePosition = Icone.GetComponent<RectTransform>();
-
                 if(EventSystem.current.currentSelectedGameObject == null)
                 {
                     EventSystem.current.SetSelectedGameObject(primeiroBotao);//nenhum botão selecionado, seleciona a variavel primeiro botão
 
                     GameObject selecionado = EventSystem.current.currentSelectedGameObject;
-                    iconePosition.position = selecionado.transform.position + new Vector3(0,0,0);
+
+                    if (Icone)
+                    {
+                        Icone.SetActive(true);
+                        RectTransform iconePosition = Icone.GetComponent<RectTransform>();
+                        iconePosition.position = selecionado.transform.position + new Vector3(0,0,-1);   
+                    }
+
                 }
 
                 if (NavSom)
@@ -105,15 +115,18 @@ public class InputSwitcher : MonoBehaviour
             {
                 Mouse = false;
 
-                Icone.SetActive(true);
-                RectTransform iconePosition = Icone.GetComponent<RectTransform>();
-
                 if(EventSystem.current.currentSelectedGameObject == null)
                 {
                     EventSystem.current.SetSelectedGameObject(primeiroBotao);
 
                     GameObject selecionado = EventSystem.current.currentSelectedGameObject;
-                    iconePosition.position = selecionado.transform.position + new Vector3(0,0,0);
+
+                    if(Icone)
+                    {
+                        Icone.SetActive(true);
+                        RectTransform iconePosition = Icone.GetComponent<RectTransform>();
+                        iconePosition.position = selecionado.transform.position + new Vector3(0,0,-1);
+                    }
                 }
                 
                 //iconePosition.position = EventSystem.current.currentSelectedGameObject.transform.position + new Vector3(-50,0,0);
@@ -122,7 +135,7 @@ public class InputSwitcher : MonoBehaviour
 
             if (NavSom)
             {
-                Debug.Log("entrou no if de tocarSom");
+                //Debug.Log("entrou no if de tocarSom");
                 TocarSom();
             }
         }
@@ -139,6 +152,7 @@ public class InputSwitcher : MonoBehaviour
 
                     if(audioSource != null && audioSource.clip != null)
                     {
+                        //Debug.Log("função TocarSom esta sendo ativada");
                         AudioController.instance.PlayAudio(audioSource);
                         //audioSource.Play();
                         //audioSource.PlayOneShot toca o som sem interromper outro som que esteja tocando
@@ -160,6 +174,7 @@ public class InputSwitcher : MonoBehaviour
         }
         PlayerPrefs.SetInt("NavSom", value ? 1 : 0);
         PlayerPrefs.Save();
+        Debug.Log(NavSom);
     }
     
 }

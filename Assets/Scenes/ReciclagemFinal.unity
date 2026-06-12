@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 444426313}
   - component: {fileID: 444426312}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Home
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -420,7 +420,7 @@ GameObject:
   - component: {fileID: 845834503}
   - component: {fileID: 845834502}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Continue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -704,7 +704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 845834500}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1087253428
@@ -735,6 +735,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   primeiroBotao: {fileID: 845834500}
+  toggleSom: {fileID: 0}
+  NavSom: 0
+  Icone: {fileID: 0}
 --- !u!1 &1545737616
 GameObject:
   m_ObjectHideFlags: 0

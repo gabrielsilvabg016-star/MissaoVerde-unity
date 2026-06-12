@@ -59,7 +59,7 @@ public class ControllerSetas : MonoBehaviour
             {
                 GameObject filho = painelObjetos.transform.GetChild(x).gameObject;
 
-                if(!filho.activeSelf)
+                if(!filho.activeSelf && tabelaAuxiliar.estado == false)
                 {
                     //Debug.Log("entrou no if lixoSelect");
                     Destroy(filho);

@@ -8,18 +8,22 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
 
     void Start()
     {
-        ConfigurarAudio();
+        if(InputSwitcher.NavSom)
+        {
+            ConfigurarAudio();
+        }
     }
 
     public void ConfigurarAudio()
     {
         for(int x = 0; x<painelObjeto.transform.childCount; x++)//objetos
         {
-            Debug.Log("entrou no for");
+            //Debug.Log("entrou no for");
             GameObject filho = painelObjeto.transform.GetChild(x).gameObject; //objeto
-            AudioSource saidaAudio = filho.GetComponent<AudioSource>(); //saida de audio
+            AudioSource saidaAudio = filho.GetComponent<AudioSource>();
+            saidaAudio.playOnAwake = false; //saida de audio
             CatchSomObjeto(filho, saidaAudio);
-            Debug.Log("terminou no for de objeto som");
+            //Debug.Log("terminou no for de objeto som");
         }
 
         //lembrar que lista de objetos e maior que sombras//
@@ -28,26 +32,28 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
         {
             GameObject filho = painelSombra.transform.GetChild(x).gameObject; //objeto
             AudioSource saidaAudio = filho.GetComponent<AudioSource>(); //saida de audio
+            saidaAudio.playOnAwake = false;
             CatchSomSombra(filho, saidaAudio);
         }
     }
 
     void CatchSomObjeto(GameObject filho, AudioSource saidaAudio)
     {
-        Debug.Log("entrou no CatchSomObjeto");
+        //Debug.Log("entrou no CatchSomObjeto");
         Image img = filho.GetComponent<Image>(); //sprite
         string nomeObjeto = img.sprite.name;
         nomeObjeto = nomeObjeto.Split('_')[1];
         
         AudioClip clip = Resources.Load<AudioClip>("sonsGerais/sonsAuxiliares/Objetos/audioObjeto_"+nomeObjeto);//procura na pasta sonsAuxiliares sons objetos
-        Debug.Log("nome do audio clip objeto: "+clip.name);
+        //Debug.Log("nome do audio clip objeto: "+clip.name);
 
         saidaAudio.clip = clip;
+        saidaAudio.playOnAwake = false;
     }
 
     void CatchSomSombra(GameObject filho, AudioSource saidaAudio)//roda uma vez para cada sombra
     {
-        Debug.Log("entrou no CatchSomSombra");
+        //Debug.Log("entrou no CatchSomSombra");
         AudioClip[] audios;//array de audios
         Image img = filho.GetComponent<Image>();
 
@@ -60,7 +66,8 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
         indiceAudio = indiceSombra % audios.Length; //calcula indice divisivel pelo tamanho do array
 
         saidaAudio.clip = audios[indiceAudio]; //em teoria roda, bota o audio relacionado ao resultado do calculo de indice
-        Debug.Log("nome do audio: " + audios[indiceAudio].name);
-        Debug.Log("Saiu do CatchSomSombra");
+        //Debug.Log("nome do audio: " + audios[indiceAudio].name);
+        //Debug.Log("Saiu do CatchSomSombra");
+        saidaAudio.playOnAwake = false;
     }
 }
