@@ -213,7 +213,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   primeiroBotao: {fileID: 427810120}
   toggleSom: {fileID: 0}
-  NavSom: 0
   Icone: {fileID: 0}
 --- !u!1 &30279368
 GameObject:
@@ -961,7 +960,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6039788200369612399, guid: ed3a27121da835f459d357f46ded85c9, type: 3}
+  m_Sprite: {fileID: 4580492197016319513, guid: 4ee262ba9650b474a8b2105e64416a97, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
