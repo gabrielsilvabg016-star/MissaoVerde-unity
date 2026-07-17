@@ -519,7 +519,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   primeiroBotao: {fileID: 820772525}
   toggleSom: {fileID: 0}
-  NavSom: 0
   Icone: {fileID: 0}
 --- !u!114 &273864346
 MonoBehaviour:
@@ -535,6 +534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   painelObjeto: {fileID: 1029305947}
   painelSombra: {fileID: 631260243}
+  tipos: []
 --- !u!1001 &318409128
 PrefabInstance:
   m_ObjectHideFlags: 0

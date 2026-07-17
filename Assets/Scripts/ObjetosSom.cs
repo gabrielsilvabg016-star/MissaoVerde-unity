@@ -1,5 +1,6 @@
 using UnityEngine.UI;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e sombras e insere um audioClip neles
 {
@@ -54,20 +55,13 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
     void CatchSomSombra(GameObject filho, AudioSource saidaAudio)//roda uma vez para cada sombra
     {
         //Debug.Log("entrou no CatchSomSombra");
-        AudioClip[] audios;//array de audios
         Image img = filho.GetComponent<Image>();
-
-        int indiceSombra;
-        int indiceAudio;
         string nomeSombra = img.sprite.name;
+        nomeSombra = nomeSombra.Split('_')[1];
 
-        audios = Resources.LoadAll<AudioClip>("sonsGerais/sonsAuxiliares/Sombras");//bota todos os audios no array
-        indiceSombra = int.Parse(nomeSombra.Split('_')[1]); //transforma o numero da sombra em int
-        indiceAudio = indiceSombra % audios.Length; //calcula indice divisivel pelo tamanho do array
+        AudioClip clip = Resources.Load<AudioClip>("sonsGerais/sonsAuxiliares/Sombras/audioSombra_"+nomeSombra);//bota todos os audios no array
 
-        saidaAudio.clip = audios[indiceAudio]; //em teoria roda, bota o audio relacionado ao resultado do calculo de indice
-        //Debug.Log("nome do audio: " + audios[indiceAudio].name);
-        //Debug.Log("Saiu do CatchSomSombra");
+        saidaAudio.clip = clip;
         saidaAudio.playOnAwake = false;
     }
 }

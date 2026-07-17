@@ -1,5 +1,5 @@
-Using UnityEngine;
-Using UnityEngine.UI;
+/*using UnityEngine;
+using UnityEngine.UI;
 
 public class Identificadores : MonoBehaviour{
     public GameObject painelObjetos;
@@ -15,7 +15,7 @@ public class Identificadores : MonoBehaviour{
             GameObject filho = painelObjetos.transform.GetChild(x).gameObject;
             Image sprt = filho.GetComponent<Image>();
 
-            Identificador id = filho.AddComponent<Identificador>();
+            Identificadores id = filho.AddComponent<Identificadores>();
 
             AdicionarIdentificador(id, sprt);
         }
@@ -24,20 +24,20 @@ public class Identificadores : MonoBehaviour{
             GameObject filho = painelLixeiras.transform.GetChild(x).gameObject;
             Image sprt = filho.GetComponent<Image>();
 
-            Identificador id = filho.AddComponent<Identificador>();
+            Identificadores id = filho.AddComponent<Identificadores>();
 
             AdicionarIdentificador(id, sprt);
         }
     }
 
-    void AdicionarIdentificador(Identificador id, Image imagem){
+    void AdicionarIdentificador(Identificadores id, Image imagem){
         string nome = imagem.sprite.name;
 
         foreach(RegistroIdentificador registro in identificadores)
         {
             if(registro.nomeSprite == nome)
             {
-                Identificador.id = registro.id;
+                Identificadores.id = registro.id;
                 return;
             }
         }
@@ -48,4 +48,4 @@ public class Identificadores : MonoBehaviour{
 public class RegistroIdentificador{
     public string nomeSprite;
     public string id;
-}
+}*/
