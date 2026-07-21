@@ -34,7 +34,10 @@ public class ControllerSetas : MonoBehaviour
             GameObject filho = painelObjetos.transform.GetChild(x).gameObject;
             Button btn = filho.GetComponent<Button>();
 
-            btn.onClick.AddListener(() => ClicarLixo(filho));
+            btn.onClick.AddListener(() => {
+            Debug.Log(filho == null);
+            ClicarLixo(filho);
+            });
         }
 
         for(int x = 0; x<numSombras; x++)//captura os filhos do painel, pega o elemento button e adiciona a função ClicarLixeira
@@ -42,7 +45,10 @@ public class ControllerSetas : MonoBehaviour
             GameObject filho = painelLixeiras.transform.GetChild(x).gameObject;
             Button btn = filho.GetComponent<Button>();
 
-            btn.onClick.AddListener(() => ClicarLixeira(filho));
+            btn.onClick.AddListener(() => {
+            Debug.Log(filho == null);
+            ClicarLixeira(filho);
+            });
         }
 
         audioSource = GetComponent<AudioSource>();//saida de audio geral para o sistema de pareamento
