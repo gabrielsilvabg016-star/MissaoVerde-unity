@@ -1,4 +1,4 @@
-Library: C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+Library: C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --platform=Windows
 --backend=burst-llvm-18
 --target=X64_SSE2
@@ -9,10 +9,10 @@ Library: C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\
 --target-framework=NetFramework
 --linker-options=PdbAltPath="Missão-Verde_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\Burst
+--temp-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Library\Burst
---output=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Library\Burst
+--output=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Entities.Baking.BakeDependencies+CalculateActiveDependenciesJob, Unity.Entities.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Baking.BakeDependencies+CalculateActiveDependenciesJob&, Unity.Entities.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e9ade15c85327400eb76be54a4b6c1b8
@@ -125,10 +125,10 @@ Library: C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\
 --target-framework=NetFramework
 --linker-options=PdbAltPath="Missão-Verde_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\Burst
+--temp-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Library\Burst
---output=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Library\Burst
+--output=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Entities.Baking.BakeDependencies+CalculateActiveDependenciesJob, Unity.Entities.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Baking.BakeDependencies+CalculateActiveDependenciesJob&, Unity.Entities.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e9ade15c85327400eb76be54a4b6c1b8
@@ -241,10 +241,10 @@ Library: C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\
 --target-framework=NetFramework
 --linker-options=PdbAltPath="Missão-Verde_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\Burst
+--temp-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Library\Burst
---output=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Library\Burst
+--output=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Entities.EntityManager+RemapChunksFilteredJob, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.EntityManager+RemapChunksFilteredJob&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--133cdc8adea96c01df559b08afa2ef56
@@ -357,10 +357,10 @@ Library: C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\
 --target-framework=NetFramework
 --linker-options=PdbAltPath="Missão-Verde_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\Burst
+--temp-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Library\Burst
---output=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Library\Burst
+--output=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Entities.EntityManager+RemapChunksFilteredJob, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.EntityManager+RemapChunksFilteredJob&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--133cdc8adea96c01df559b08afa2ef56
@@ -473,10 +473,10 @@ Library: C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\
 --target-framework=NetFramework
 --linker-options=PdbAltPath="Missão-Verde_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\Burst
+--temp-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Library\Burst
---output=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Library\Burst
+--output=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[Unity.Physics.Systems.PhysicsWorldBuilder+Jobs+CreateMotions, Unity.Physics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[Unity.Physics.Systems.PhysicsWorldBuilder+Jobs+CreateMotions, Unity.Physics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--b7beeb9a838f6000b4be87e2d84ef6aa
@@ -547,10 +547,10 @@ Library: C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\
 --target-framework=NetFramework
 --linker-options=PdbAltPath="Missão-Verde_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\Burst
+--temp-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Library\Burst
---output=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Library\Burst
+--output=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[Unity.Physics.Systems.PhysicsWorldBuilder+Jobs+CreateMotions, Unity.Physics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[Unity.Physics.Systems.PhysicsWorldBuilder+Jobs+CreateMotions, Unity.Physics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--b7beeb9a838f6000b4be87e2d84ef6aa
@@ -621,10 +621,10 @@ Library: C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\
 --target-framework=NetFramework
 --linker-options=PdbAltPath="Missão-Verde_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\Burst
+--temp-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Library\Burst
---output=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Library\Burst
+--output=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
@@ -737,10 +737,10 @@ Library: C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\
 --target-framework=NetFramework
 --linker-options=PdbAltPath="Missão-Verde_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\Burst
+--temp-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Library\Burst
---output=C:\Users\chita\Documents\Github\projetoPesquisa\MissaoVerde-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Library\Burst
+--output=C:\Users\Usuario Pesquisa\Documents\GitHub\Reciclagem-unity\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10

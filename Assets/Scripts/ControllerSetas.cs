@@ -27,9 +27,9 @@ public class ControllerSetas : MonoBehaviour
     }
     void Start()
     {
-        Debug.Log("O controllerSetas carregou");
+        /*Debug.Log("O controllerSetas carregou");
         Debug.Log($"quantiade de objetos no inicio do carregamento do controllerSetas: {painelObjetos.transform.childCount}");
-        Debug.Log($"quantiade de sombras no inicio do carregamento do controllerSetas: {painelLixeiras.transform.childCount}");
+        Debug.Log($"quantiade de sombras no inicio do carregamento do controllerSetas: {painelLixeiras.transform.childCount}");*/
     }
 
     void Update()
@@ -84,8 +84,8 @@ public class ControllerSetas : MonoBehaviour
     void ClicarLixeira(GameObject lixeira)
     {
         Image img = lixeira.GetComponent<Image>();
-        lixeira.name = "lixeira";
-        Debug.Log("Clicou em " + lixeira.name+ " imagem: "+img.sprite.name);
+
+        //Debug.Log("Clicou em " + lixeira.name+ " imagem: "+img.sprite.name);
         if(lixoSelect == null)
         {
             Debug.Log("Selecione um lixo antes de selecionar uma lixeira");
@@ -153,7 +153,7 @@ public class ControllerSetas : MonoBehaviour
             btn.onClick.AddListener(() => {
             ClicarLixo(filhoLocal);
             });
-            Debug.Log($"Listener adicionado em {filho.name}");
+            
         }
 
         for(int x = 0; x<numSombras; x++)//captura os filhos do painel, pega o elemento button e adiciona a função ClicarLixeira
@@ -165,9 +165,7 @@ public class ControllerSetas : MonoBehaviour
             btn.onClick.AddListener(() => {
             ClicarLixeira(filhoLocal);
             });
-            Debug.Log($"Listener adicionado em {filho.name}");
         }
-        Debug.Log("Se ele chegou ate aqui tem algo de errado, ta pulando os fors");
         audioSource = GetComponent<AudioSource>();//saida de audio geral para o sistema de pareamento
     }
 
