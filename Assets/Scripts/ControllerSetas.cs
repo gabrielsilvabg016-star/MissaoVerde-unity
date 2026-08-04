@@ -27,9 +27,7 @@ public class ControllerSetas : MonoBehaviour
     }
     void Start()
     {
-        /*Debug.Log("O controllerSetas carregou");
-        Debug.Log($"quantiade de objetos no inicio do carregamento do controllerSetas: {painelObjetos.transform.childCount}");
-        Debug.Log($"quantiade de sombras no inicio do carregamento do controllerSetas: {painelLixeiras.transform.childCount}");*/
+        
     }
 
     void Update()

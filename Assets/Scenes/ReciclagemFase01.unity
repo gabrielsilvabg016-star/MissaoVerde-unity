@@ -534,7 +534,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   painelObjeto: {fileID: 1029305947}
   painelSombra: {fileID: 631260243}
-  tipos: []
 --- !u!1001 &318409128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2064,15 +2063,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3661287247646894810, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: m_Color.b
-      value: 0.92156863
+      value: 0.7647059
       objectReference: {fileID: 0}
     - target: {fileID: 3661287247646894810, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: m_Color.g
-      value: 0.92156863
+      value: 0.8509804
       objectReference: {fileID: 0}
     - target: {fileID: 3661287247646894810, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: m_Color.r
-      value: 0.92156863
+      value: 0.73333335
       objectReference: {fileID: 0}
     - target: {fileID: 3661287247646894810, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: m_Enabled
@@ -2116,15 +2115,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7139522683793600422, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: m_Color.b
-      value: 0.92156863
+      value: 0.7647059
       objectReference: {fileID: 0}
     - target: {fileID: 7139522683793600422, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: m_Color.g
-      value: 0.92156863
+      value: 0.8509804
       objectReference: {fileID: 0}
     - target: {fileID: 7139522683793600422, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: m_Color.r
-      value: 0.92156863
+      value: 0.73333335
       objectReference: {fileID: 0}
     - target: {fileID: 7139522683793600422, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: m_Enabled
@@ -2151,6 +2150,10 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
+      propertyPath: sombraAltura
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: dividirSprite
       value: 1
       objectReference: {fileID: 0}
@@ -2164,6 +2167,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: objetoLargura
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
+      propertyPath: sombraLargura
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7609177052230196633, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
@@ -2382,7 +2389,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1569428078, guid: a9cbd9845718fd04faa67271e6e39a35, type: 3}
+  m_Sprite: {fileID: -3020018330431469314, guid: 996f213bcc10a6946bd3d9eebc6c78c9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3788,8 +3795,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 882, y: 0}
-  m_SizeDelta: {x: 93.52, y: 15.79}
+  m_AnchoredPosition: {x: 1031, y: 0}
+  m_SizeDelta: {x: 93.52, y: 18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1399669305
 MonoBehaviour:
@@ -3848,14 +3855,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.73333335, g: 0.8509804, b: 0.7647059, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 761206787, guid: 6aaee018e90f93f4b867acf310426a51, type: 3}
+  m_Sprite: {fileID: 3324787979591696845, guid: 59c1f49941c6ce349b8b82eb3066bb33, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
