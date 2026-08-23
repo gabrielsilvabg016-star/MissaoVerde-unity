@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 59c1f49941c6ce349b8b82eb3066bb33
+guid: b24adbd92c4555f42b07a8b2eee54671
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3324787979591696845
-    second: btn-auxilio_0
+      213: 1797981236127586098
+    second: Rectangle 140_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: btn-auxilio_0
+      name: Rectangle 140_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 4
-        width: 177
-        height: 178
+        y: 0
+        width: 1694
+        height: 949
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc14d0d4d05042e20800000000000000
-      internalID: 3324787979591696845
+      spriteID: 237d33c7866b3f810800000000000000
+      internalID: 1797981236127586098
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      btn-auxilio_0: 3324787979591696845
+      Rectangle 140_0: 1797981236127586098
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

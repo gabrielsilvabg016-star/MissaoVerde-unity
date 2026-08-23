@@ -1,70 +1,70 @@
 fileFormatVersion: 2
-guid: 945341414dfcc3f48ae1e091f1ef0a31
+guid: 91b06846602b8d449b0f634db0ff7bde
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2389375760875106145
-    second: sombra_0
+      213: -3285106276782294884
+    second: objetoPareado_0
   - first:
-      213: 4589923975593396688
-    second: sombra_1
+      213: 206179925468165803
+    second: objetoPareado_1
   - first:
-      213: 8867717083100048547
-    second: sombra_2
+      213: -7611033984501057361
+    second: objetoPareado_2
   - first:
-      213: 8420822686472566390
-    second: sombra_3
+      213: -4652113761565598975
+    second: objetoPareado_3
   - first:
-      213: 5205856652331676350
-    second: sombra_4
+      213: 1346613104425115273
+    second: objetoPareado_4
   - first:
-      213: -6016568750565266308
-    second: sombra_5
+      213: 2060889453158488181
+    second: objetoPareado_5
   - first:
-      213: 4482942223489759414
-    second: sombra_6
+      213: -7891946118995466733
+    second: objetoPareado_6
   - first:
-      213: 5210659989768093527
-    second: sombra_7
+      213: 8843949456139291131
+    second: objetoPareado_7
   - first:
-      213: -3821583020687976072
-    second: sombra_8
+      213: 3914933423997334653
+    second: objetoPareado_8
   - first:
-      213: 6363942154667839358
-    second: sombra_9
+      213: 2488729247255570730
+    second: objetoPareado_9
   - first:
-      213: 8450202145457111280
-    second: sombra_10
+      213: -6564004403674903979
+    second: objetoPareado_10
   - first:
-      213: -6751501748110480380
-    second: sombra_11
+      213: 7810579739314333461
+    second: objetoPareado_11
   - first:
-      213: 5407715381413325682
-    second: sombra_12
+      213: 714632346744539188
+    second: objetoPareado_12
   - first:
-      213: 7701995571792010457
-    second: sombra_13
+      213: -2190275769742150076
+    second: objetoPareado_13
   - first:
-      213: 7907418280344466472
-    second: sombra_14
+      213: 8607570659575973326
+    second: objetoPareado_14
   - first:
-      213: 1066096755469839910
-    second: sombra_15
+      213: -5810639022647879455
+    second: objetoPareado_15
   - first:
-      213: 4705560269254605689
-    second: sombra_16
+      213: -3080185294199426059
+    second: objetoPareado_16
   - first:
-      213: -2992482109172138675
-    second: sombra_17
+      213: -3395030395197322478
+    second: objetoPareado_17
   - first:
-      213: -5332685519222177205
-    second: sombra_18
+      213: -7674112176799950887
+    second: objetoPareado_18
   - first:
-      213: -1132109363680651129
-    second: sombra_19
+      213: 7260215878742244976
+    second: objetoPareado_19
   - first:
-      213: 3018911059955127881
-    second: sombra_20
+      213: 6868349682584839057
+    second: objetoPareado_20
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -173,463 +173,463 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sombra_0
+      name: objetoPareado_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 805
-        width: 214
-        height: 398
+        y: 556
+        width: 149
+        height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 16fa3e55894c82120800000000000000
-      internalID: 2389375760875106145
+      spriteID: 2862f3806bf79ff4d9553e8d41ad121d
+      internalID: -195918663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_1
+      name: objetoPareado_1
       rect:
         serializedVersion: 2
-        x: 242
-        y: 805
-        width: 242
-        height: 398
+        x: 177
+        y: 556
+        width: 149
+        height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0d90b4f898fa2bf30800000000000000
-      internalID: 4589923975593396688
+      spriteID: 5be92d4805a3fcc4ba067505b76e1d0b
+      internalID: 861575925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_2
+      name: objetoPareado_9
       rect:
         serializedVersion: 2
-        x: 513
-        y: 805
-        width: 215
-        height: 398
+        x: 353
+        y: 556
+        width: 149
+        height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3ac67d234b5701b70800000000000000
-      internalID: 8867717083100048547
+      spriteID: 4164871eec6013c4b8b2742c7f4779d2
+      internalID: 1688365634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_3
+      name: objetoPareado_3
       rect:
         serializedVersion: 2
-        x: 756
-        y: 802
-        width: 218
-        height: 401
+        x: 529
+        y: 556
+        width: 149
+        height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6767fbf2e95ccd470800000000000000
-      internalID: 8420822686472566390
+      spriteID: fed8de6333dbe4d4081d0800754554c7
+      internalID: -222987577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_4
+      name: objetoPareado_4
       rect:
         serializedVersion: 2
-        x: 1002
-        y: 805
-        width: 250
-        height: 398
+        x: 706
+        y: 556
+        width: 149
+        height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eb275d12b0bee3840800000000000000
-      internalID: 5205856652331676350
+      spriteID: 854c0d4af0cd9c642b72cc9ff225e579
+      internalID: 1239849290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_5
+      name: objetoPareado_5
       rect:
         serializedVersion: 2
-        x: 1281
-        y: 805
-        width: 299
-        height: 398
+        x: 882
+        y: 556
+        width: 149
+        height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c7c67d7399ad08ca0800000000000000
-      internalID: -6016568750565266308
+      spriteID: fdc8ff8380b7b234f8ebedb7e9a32c46
+      internalID: -1883711154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_6
+      name: objetoPareado_6
       rect:
         serializedVersion: 2
-        x: 1609
-        y: 805
-        width: 221
-        height: 398
+        x: 1058
+        y: 556
+        width: 149
+        height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6b8f4bb533c963e30800000000000000
-      internalID: 4482942223489759414
+      spriteID: 532856a49a35d5441a22aced6cdc99eb
+      internalID: 681246467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_7
+      name: objetoPareado_7
       rect:
         serializedVersion: 2
         x: 0
-        y: 403
-        width: 214
-        height: 398
+        y: 278
+        width: 149
+        height: 264
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 75fb77747abff4840800000000000000
-      internalID: 5210659989768093527
+      spriteID: 91526595a3356164cb8be83718a619e9
+      internalID: 781461122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_8
+      name: objetoPareado_15
       rect:
         serializedVersion: 2
-        x: 242
-        y: 403
-        width: 242
-        height: 398
+        x: 177
+        y: 278
+        width: 149
+        height: 264
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8799a348d7207fac0800000000000000
-      internalID: -3821583020687976072
+      spriteID: c4e565194827bdc408e7ea11f860eb17
+      internalID: -1260658409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_9
+      name: objetoPareado_2
       rect:
         serializedVersion: 2
-        x: 513
-        y: 403
-        width: 215
-        height: 398
+        x: 353
+        y: 278
+        width: 149
+        height: 264
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e7f4c1c0ca3415850800000000000000
-      internalID: 6363942154667839358
+      spriteID: a4c557a89a168be4b86481ac71a97d7c
+      internalID: -1597080829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_10
+      name: objetoPareado_10
       rect:
         serializedVersion: 2
-        x: 756
-        y: 401
-        width: 218
-        height: 402
+        x: 529
+        y: 278
+        width: 149
+        height: 264
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0f007388416254570800000000000000
-      internalID: 8450202145457111280
+      spriteID: 59dc39eb22852664ca8d9d08bafd7ff1
+      internalID: -824632492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_11
+      name: objetoPareado_11
       rect:
         serializedVersion: 2
-        x: 1002
-        y: 403
-        width: 250
-        height: 398
+        x: 706
+        y: 278
+        width: 149
+        height: 264
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 40c227b5ee8dd42a0800000000000000
-      internalID: -6751501748110480380
+      spriteID: 9ff339a9e32e96b41b9f7fdb9cdbd7c4
+      internalID: -1529016737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_12
+      name: objetoPareado_12
       rect:
         serializedVersion: 2
-        x: 1281
-        y: 403
-        width: 299
-        height: 398
+        x: 882
+        y: 278
+        width: 149
+        height: 264
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 27bae83fc701c0b40800000000000000
-      internalID: 5407715381413325682
+      spriteID: 638ff85f875db0841a547427c11a7843
+      internalID: 1067833983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_13
+      name: objetoPareado_13
       rect:
         serializedVersion: 2
-        x: 1609
-        y: 403
-        width: 221
-        height: 398
+        x: 1058
+        y: 278
+        width: 149
+        height: 264
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9dc5b466a2cf2ea60800000000000000
-      internalID: 7701995571792010457
+      spriteID: e76c463e17354324dac2d2f7e0ff1989
+      internalID: 1889016128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_14
+      name: objetoPareado_14
       rect:
         serializedVersion: 2
         x: 0
         y: 1
-        width: 214
-        height: 398
+        width: 149
+        height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 824bc5ad70bccbd60800000000000000
-      internalID: 7907418280344466472
+      spriteID: 5dda2d789d400ef4b97dcaaaf219bbf8
+      internalID: -1990376072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_15
+      name: objetoPareado_8
       rect:
         serializedVersion: 2
-        x: 242
+        x: 177
         y: 1
-        width: 242
-        height: 398
+        width: 149
+        height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 62ee9f5c9598bce00800000000000000
-      internalID: 1066096755469839910
+      spriteID: 4d8e30b1a13e2f24ea7a347fdb110afb
+      internalID: -633381259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_16
+      name: objetoPareado_16
       rect:
         serializedVersion: 2
-        x: 513
+        x: 353
         y: 1
-        width: 215
-        height: 398
+        width: 149
+        height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 97bbc1e32228d4140800000000000000
-      internalID: 4705560269254605689
+      spriteID: 2d64ac9ab17222044860718a7d7b5eab
+      internalID: -81558030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sombra_17
+      name: objetoPareado_17
       rect:
         serializedVersion: 2
-        x: 756
+        x: 529
+        y: 1
+        width: 149
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf894c46104777442a5691355e433d1f
+      internalID: -1903922518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetoPareado_18
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1
+        width: 149
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ea1bc0fa799b64494aebf7735ea576
+      internalID: -1871879978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetoPareado_19
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1
+        width: 149
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53416fd5f9cbc7448939c4f6b7934963
+      internalID: -1940849267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetoPareado_20
+      rect:
+        serializedVersion: 2
+        x: 1057
         y: 0
-        width: 218
-        height: 401
+        width: 149
+        height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d4d351660619876d0800000000000000
-      internalID: -2992482109172138675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sombra_18
-      rect:
-        serializedVersion: 2
-        x: 1002
-        y: 1
-        width: 250
-        height: 398
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4284e726ce7ef5b0800000000000000
-      internalID: -5332685519222177205
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sombra_19
-      rect:
-        serializedVersion: 2
-        x: 1281
-        y: 1
-        width: 299
-        height: 398
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 788dbea2880f940f0800000000000000
-      internalID: -1132109363680651129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sombra_20
-      rect:
-        serializedVersion: 2
-        x: 1609
-        y: 1
-        width: 221
-        height: 398
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9469f193d9355e920800000000000000
-      internalID: 3018911059955127881
+      spriteID: 6811bb2cd8ea9cc4dab3a5ffa9a8f2c4
+      internalID: 1683418712
       vertices: []
       indices: 
       edges: []
@@ -638,7 +638,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d8fc35a35b97b78468d0a578ce3ef09d
     internalID: 0
     vertices: []
     indices: 
@@ -647,7 +647,29 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      1: -1260658409
+      objetoPareado_0: -195918663
+      objetoPareado_1: 861575925
+      objetoPareado_10: -824632492
+      objetoPareado_11: -1529016737
+      objetoPareado_12: 1067833983
+      objetoPareado_13: 1889016128
+      objetoPareado_14: -1990376072
+      objetoPareado_15: -1260658409
+      objetoPareado_16: -81558030
+      objetoPareado_17: -1903922518
+      objetoPareado_18: -1871879978
+      objetoPareado_19: -1940849267
+      objetoPareado_2: -1597080829
+      objetoPareado_20: 1683418712
+      objetoPareado_3: -222987577
+      objetoPareado_4: 1239849290
+      objetoPareado_5: -1883711154
+      objetoPareado_6: 681246467
+      objetoPareado_7: 781461122
+      objetoPareado_8: -633381259
+      objetoPareado_9: 1688365634
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

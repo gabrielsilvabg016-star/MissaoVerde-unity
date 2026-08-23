@@ -285,6 +285,30 @@ PrefabInstance:
     m_TransformParent: {fileID: 183127699}
     m_Modifications:
     - target: {fileID: 1792181347687210073, guid: f940b96981a8c9c4da2d12b517997d95, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0.78431374
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792181347687210073, guid: f940b96981a8c9c4da2d12b517997d95, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.78431374
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792181347687210073, guid: f940b96981a8c9c4da2d12b517997d95, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 0.78431374
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792181347687210073, guid: f940b96981a8c9c4da2d12b517997d95, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.78431374
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792181347687210073, guid: f940b96981a8c9c4da2d12b517997d95, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.78431374
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792181347687210073, guid: f940b96981a8c9c4da2d12b517997d95, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.78431374
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792181347687210073, guid: f940b96981a8c9c4da2d12b517997d95, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -421,6 +445,7 @@ GameObject:
   - component: {fileID: 397196481}
   - component: {fileID: 397196480}
   - component: {fileID: 397196479}
+  - component: {fileID: 397196482}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -471,7 +496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 990964073}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &397196481
@@ -489,6 +514,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &397196482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397196478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1045494961f10c040a9139f6289419e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  primeiroBotao: {fileID: 6162049625816930535, guid: f940b96981a8c9c4da2d12b517997d95, type: 3}
+  toggleSom: {fileID: 0}
+  Icone: {fileID: 0}
 --- !u!1 &781029790
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,6 +621,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &990964073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6162049625816930535, guid: f940b96981a8c9c4da2d12b517997d95, type: 3}
+  m_PrefabInstance: {fileID: 240093316}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1258668317
 GameObject:
   m_ObjectHideFlags: 0

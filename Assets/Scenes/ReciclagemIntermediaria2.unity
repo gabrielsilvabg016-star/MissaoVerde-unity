@@ -336,8 +336,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "PARAB\xC9NS PELO TRABALHO INCR\xCDVEL! \nCADA GARRAFA, TAMPINHA E PAPEL
-    QUE VOC\xCAS REAPROVEITARAM AJUDOU A CUIDAR DO NOSSO PLANETA. AGORA, VAMOS DAR
-    O PR\xD3XIMO PASSO: CUIDAR DAS NOSSAS PLANTINHAS!\n"
+    QUE VOC\xCAS REAPROVEITARAM AJUDOU A CUIDAR DO NOSSO PLANETA. AGORA, VAMOS DIFICULTAR
+    UM POUCO. AS LIXEIRAS N\xC3O FALAM MAIS O QUE DEVE SER POSTO DENTRO DELAS."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -859,7 +859,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ReciclagemFase01
+          m_StringArgument: ReciclagemFase02
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1515788870
@@ -1233,8 +1233,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f7a2f27274dd15f4e8a4a598dcc0bf46, type: 3}
-  m_Resource: {fileID: 8300000, guid: f7a2f27274dd15f4e8a4a598dcc0bf46, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8cae1a780ca66d747b3e5dbb960c3125, type: 3}
+  m_Resource: {fileID: 8300000, guid: 8cae1a780ca66d747b3e5dbb960c3125, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
