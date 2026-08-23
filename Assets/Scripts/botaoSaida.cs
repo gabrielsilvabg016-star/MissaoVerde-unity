@@ -9,6 +9,7 @@ public class botaoSaida : MonoBehaviour
         public Button button;
         public GameObject painel;
         public GameObject buttonDefault;
+        private bool estado = tabelaAuxiliar.estado;//recebe o estado do tabelaAuxiliar
     void Start()
     {
         button.onClick.AddListener(EsconderImagem);
@@ -24,7 +25,10 @@ public class botaoSaida : MonoBehaviour
             }
             EventSystem.current.SetSelectedGameObject(buttonDefault);
             canvas.SetActive(false);
+            estado = false;//altera o estado local
+            tabelaAuxiliar.estado = estado; //troca o valor do global pelo local
             Debug.Log("Canvas foi desativado");
+            Debug.Log(estado);
         }
     }
 }

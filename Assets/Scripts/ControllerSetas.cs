@@ -20,6 +20,7 @@ public class ControllerSetas : MonoBehaviour
     private int numObjetos;
     private int numSombras;
     private int quantItems;
+    public string Fase;
 
     void Awake()
     {
@@ -113,7 +114,7 @@ public class ControllerSetas : MonoBehaviour
             Debug.Log("jogou fora: "+ lixoSelect.name);
             if(substituirAposParear)
             {
-                Sprite[] arraySprites = Resources.LoadAll<Sprite>("fases/reciclagemFase1/objetoPareado"); //so alterar esse caminho para alterar a imagem pareada;
+                Sprite[] arraySprites = Resources.LoadAll<Sprite>($"fases/{Fase}/objetoPareado"); //so alterar esse caminho para alterar a imagem pareada;
                 foreach(Sprite novo in arraySprites)
                     {
                         string novoSprite = novo.name.Split('_')[1];
