@@ -19,7 +19,7 @@ public class ControllerSetas : MonoBehaviour
     private bool travaCriacaoObjetos = false;
     private int numObjetos;
     private int numSombras;
-    private int quantItems;
+    public static int quantItems;
     public string Fase;
 
     void Awake()
