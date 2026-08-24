@@ -6,12 +6,22 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
 {
     public GameObject painelObjeto;
     public GameObject painelSombra;
+    public bool travaCriacao = false;
 
     void Start()
     {
-        if(InputSwitcher.NavSom)
+        
+    }
+
+    void Update()
+    {
+        if(InputSwitcher.NavSom && travaCriacao = false)
         {
-            ConfigurarAudio();
+            if(ControllerSetas.quantItem > 0)
+            {
+                ConfigurarAudio();
+                travaCriacao = true;
+            }
         }
     }
 
