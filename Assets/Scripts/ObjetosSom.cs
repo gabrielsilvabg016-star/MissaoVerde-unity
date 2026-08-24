@@ -15,9 +15,9 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
 
     void Update()
     {
-        if(InputSwitcher.NavSom && travaCriacao = false)
+        if(InputSwitcher.NavSom && travaCriacao == false)
         {
-            if(ControllerSetas.quantItem > 0)
+            if(ControllerSetas.quantItems > 0)
             {
                 ConfigurarAudio();
                 travaCriacao = true;
