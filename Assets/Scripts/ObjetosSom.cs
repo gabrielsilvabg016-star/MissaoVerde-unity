@@ -6,7 +6,7 @@ public class ObjetosSom : MonoBehaviour //script que captura ambos objetos e som
 {
     public GameObject painelObjeto;
     public GameObject painelSombra;
-    public bool travaCriacao = false;
+    private bool travaCriacao = false;
 
     void Start()
     {

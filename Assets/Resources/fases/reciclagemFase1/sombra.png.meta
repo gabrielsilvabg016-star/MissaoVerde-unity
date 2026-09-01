@@ -177,11 +177,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 805
-        width: 214
-        height: 398
+        y: 821
+        width: 213
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -198,12 +198,12 @@ TextureImporter:
       name: sombra_1
       rect:
         serializedVersion: 2
-        x: 242
-        y: 805
-        width: 242
-        height: 398
+        x: 243
+        y: 821
+        width: 240
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -220,12 +220,12 @@ TextureImporter:
       name: sombra_2
       rect:
         serializedVersion: 2
-        x: 513
-        y: 805
-        width: 215
-        height: 398
+        x: 514
+        y: 821
+        width: 213
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -242,12 +242,12 @@ TextureImporter:
       name: sombra_3
       rect:
         serializedVersion: 2
-        x: 756
-        y: 802
-        width: 218
-        height: 401
+        x: 757
+        y: 818
+        width: 216
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -264,12 +264,12 @@ TextureImporter:
       name: sombra_4
       rect:
         serializedVersion: 2
-        x: 1002
-        y: 805
-        width: 250
-        height: 398
+        x: 1003
+        y: 821
+        width: 248
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -286,12 +286,12 @@ TextureImporter:
       name: sombra_5
       rect:
         serializedVersion: 2
-        x: 1281
-        y: 805
-        width: 299
-        height: 398
+        x: 1282
+        y: 821
+        width: 297
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -308,12 +308,12 @@ TextureImporter:
       name: sombra_6
       rect:
         serializedVersion: 2
-        x: 1609
-        y: 805
-        width: 221
-        height: 398
+        x: 1610
+        y: 821
+        width: 220
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -331,11 +331,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 403
-        width: 214
-        height: 398
+        y: 413
+        width: 213
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -352,12 +352,12 @@ TextureImporter:
       name: sombra_8
       rect:
         serializedVersion: 2
-        x: 242
-        y: 403
-        width: 242
-        height: 398
+        x: 243
+        y: 413
+        width: 240
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -374,12 +374,12 @@ TextureImporter:
       name: sombra_9
       rect:
         serializedVersion: 2
-        x: 513
-        y: 403
-        width: 215
-        height: 398
+        x: 514
+        y: 413
+        width: 213
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -396,12 +396,12 @@ TextureImporter:
       name: sombra_10
       rect:
         serializedVersion: 2
-        x: 756
-        y: 401
-        width: 218
-        height: 402
+        x: 757
+        y: 410
+        width: 216
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -418,12 +418,12 @@ TextureImporter:
       name: sombra_11
       rect:
         serializedVersion: 2
-        x: 1002
-        y: 403
-        width: 250
-        height: 398
+        x: 1003
+        y: 413
+        width: 248
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -440,12 +440,12 @@ TextureImporter:
       name: sombra_12
       rect:
         serializedVersion: 2
-        x: 1281
-        y: 403
-        width: 299
-        height: 398
+        x: 1282
+        y: 413
+        width: 297
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -462,12 +462,12 @@ TextureImporter:
       name: sombra_13
       rect:
         serializedVersion: 2
-        x: 1609
-        y: 403
-        width: 221
-        height: 398
+        x: 1610
+        y: 413
+        width: 220
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -485,11 +485,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 214
-        height: 398
+        y: 3
+        width: 213
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -506,12 +506,12 @@ TextureImporter:
       name: sombra_15
       rect:
         serializedVersion: 2
-        x: 242
-        y: 1
-        width: 242
-        height: 398
+        x: 243
+        y: 3
+        width: 240
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -528,12 +528,12 @@ TextureImporter:
       name: sombra_16
       rect:
         serializedVersion: 2
-        x: 513
-        y: 1
-        width: 215
-        height: 398
+        x: 514
+        y: 3
+        width: 213
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -550,12 +550,12 @@ TextureImporter:
       name: sombra_17
       rect:
         serializedVersion: 2
-        x: 756
+        x: 757
         y: 0
-        width: 218
-        height: 401
+        width: 216
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -572,12 +572,12 @@ TextureImporter:
       name: sombra_18
       rect:
         serializedVersion: 2
-        x: 1002
-        y: 1
-        width: 250
-        height: 398
+        x: 1003
+        y: 3
+        width: 248
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -594,12 +594,12 @@ TextureImporter:
       name: sombra_19
       rect:
         serializedVersion: 2
-        x: 1281
-        y: 1
-        width: 299
-        height: 398
+        x: 1282
+        y: 3
+        width: 297
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -616,12 +616,12 @@ TextureImporter:
       name: sombra_20
       rect:
         serializedVersion: 2
-        x: 1609
-        y: 1
-        width: 221
-        height: 398
+        x: 1610
+        y: 3
+        width: 220
+        height: 396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -638,7 +638,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2a642119e16dd9649980b466ad8bd57e
     internalID: 0
     vertices: []
     indices: 
@@ -646,7 +646,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":true,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: True
     nameFileIdTable:
       sombra_0: 2389375760875106145
       sombra_1: 4589923975593396688
