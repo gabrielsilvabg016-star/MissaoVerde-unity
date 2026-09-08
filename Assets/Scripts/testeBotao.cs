@@ -4,14 +4,10 @@ using UnityEngine.UI;
 
 public class testeBotao : MonoBehaviour
 {
-    public Button botao;
-    void Start()
-    {
-        botao.onClick.AddListener(msgTeste);
-    }
-
+    [TextArea]
+    [SerializeField] public string texto;
     public void msgTeste()
     {
-        Debug.Log("teste");
+        Debug.Log(texto);
     }
 }

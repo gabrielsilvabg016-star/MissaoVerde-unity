@@ -30,30 +30,16 @@ public class InputSwitcher : MonoBehaviour
     {
         DetectTeclado();//teclado = seleção
         DetectMouse();//mouse = hover
-        if(Icone){
-            GameObject selecionado = EventSystem.current.currentSelectedGameObject;
-
-            if (selecionado)
-            {
-                if(Cursor.visible == true)
-                {
-                    //Cursor.visible = false;
-                }
-
-                Icone.SetActive(true);
-                RectTransform iconePosition = Icone.GetComponent<RectTransform>();
-                RectTransform selecionadoPosition = selecionado.GetComponent<RectTransform>();
-                iconePosition.position = selecionadoPosition.position;
-            }
-            else
-                Icone.SetActive(false);
-                //Cursor.visible = true;
-        }
-        //Debug.Log(EventSystem.current.currentSelectedGameObject);
+        ActivateIcone();
     }
 
     void DetectMouse()
     {
+        if(Icone)
+        {
+            Icone.SetActive(false);
+        }
+
         //movimento do mouse
         if(Input.GetAxis("Mouse X") != 0 || Input.GetAxis("Mouse Y") != 0)
         {
@@ -97,9 +83,6 @@ public class InputSwitcher : MonoBehaviour
                 {
                     TocarSom();
                 }
-
-                //GameObject selecionado = EventSystem.current.currentSelectedGameObject;
-                //iconePosition.position = EventSystem.current.currentSelectedGameObject.transform.position + new Vector3(-50,0,0);
             }
         }
 
@@ -113,12 +96,7 @@ public class InputSwitcher : MonoBehaviour
                 if(EventSystem.current.currentSelectedGameObject == null)
                 {
                     EventSystem.current.SetSelectedGameObject(primeiroBotao);
-
-                    //GameObject selecionado = EventSystem.current.currentSelectedGameObject;
                 }
-                
-                //iconePosition.position = EventSystem.current.currentSelectedGameObject.transform.position + new Vector3(-50,0,0);
-
             }
 
             if (NavSom)
@@ -163,6 +141,28 @@ public class InputSwitcher : MonoBehaviour
         PlayerPrefs.SetInt("NavSom", value ? 1 : 0);
         PlayerPrefs.Save();
         Debug.Log(NavSom);
+    }
+
+    void ActivateIcone()
+    {
+        if(Icone){
+            GameObject selecionado = EventSystem.current.currentSelectedGameObject;
+
+            if (selecionado && Mouse == false)
+            {
+                if(Cursor.visible == true)
+                {
+                    //Cursor.visible = false;
+                }
+
+                Icone.SetActive(true);
+                RectTransform iconePosition = Icone.GetComponent<RectTransform>();
+                RectTransform selecionadoPosition = selecionado.GetComponent<RectTransform>();
+                iconePosition.position = selecionadoPosition.position;
+            }
+        }
+        else
+        return;
     }
     
 }

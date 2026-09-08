@@ -114,6 +114,12 @@ EditorBuildSettings:
     path: Assets/Scenes/ReciclagemInicio.unity
     guid: 4144cdeda9bcbd542b2f54743ee13758
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: e9a8af877cd92494bbd3d9af8127e1d6
+  - enabled: 1
+    path: Assets/Scenes/Conhecer.unity
+    guid: 5dad6b37b5efad34b8a895367ff3bd9b
+  - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: cca2f7f519b79cd4eb6c95a7ccb16bdb
   - enabled: 1
@@ -127,7 +133,7 @@ EditorBuildSettings:
     guid: 074cc7e4016c7864ca93f324e6cf7c74
   - enabled: 1
     path: Assets/Scenes/ReciclagemIntermediaria2.unity
-    guid: 42dcfe33489b0b24c95d82b713e8d127
+    guid: 01f50a77090479344b35888bb5ec957f
   - enabled: 1
     path: Assets/Scenes/ReciclagemFase02.unity
     guid: 5659a99dab8683e49aff411409a2bcf0

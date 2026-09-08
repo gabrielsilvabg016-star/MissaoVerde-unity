@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 6bf7ad81b8cc9c647ace5b24c04b00a6
+guid: 1b4f07a1e4209d44b9625a93a74ffefb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6071020695505685825
-    second: tbl-aux-final_0
+      213: 3160273822748574731
+    second: conhecer-title_0
   - first:
-      213: -633724852936394374
-    second: tbl-aux-final_1
+      213: 6194012208447509060
+    second: conhecer-title_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,45 +116,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tbl-aux-final_0
+      name: conhecer-title_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1947
-        height: 1169
+        y: 1
+        width: 1570
+        height: 143
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb2b654d7d66fbba0800000000000000
-      internalID: -6071020695505685825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tbl-aux-final_1
-      rect:
-        serializedVersion: 2
-        x: 2141
-        y: 0
-        width: 1959
-        height: 1169
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a79b3679a9e8437f0800000000000000
-      internalID: -633724852936394374
+      spriteID: b0405e54c4c8bdb20800000000000000
+      internalID: 3160273822748574731
       vertices: []
       indices: 
       edges: []
@@ -163,7 +141,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fb5b948a094984d4db8b55043a8c08d5
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +151,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tbl-aux-final_0: -6071020695505685825
-      tbl-aux-final_1: -633724852936394374
+      conhecer-title_0: 3160273822748574731
+      conhecer-title_1: 6194012208447509060
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
