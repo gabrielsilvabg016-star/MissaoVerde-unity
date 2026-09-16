@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "MissaoVerde-unity.slnx"
+    "dotnet.defaultSolution": "Reciclagem-unity.slnx"
 }
