@@ -13,10 +13,10 @@ public class canvasAuxiliar : MonoBehaviour
 
     void Start()
     {
-        if(canvasAux != null)
+        /*if(canvasAux != null)
         {
             canvasAux.SetActive(false);
-        }
+        }*/
         botao = GetComponent<Button>();
         botao.onClick.AddListener(AtivarCanvas);
     }
@@ -25,13 +25,13 @@ public class canvasAuxiliar : MonoBehaviour
     {
         if(canvasAux.activeSelf == false)//canvas escondido
         {
-            canvasMain.SetActive(false);
             canvasAux.SetActive(true);//ativa o canvas
+            canvasMain.SetActive(false);
         }
         else if(canvasAux.activeSelf == true)//canvas ativo
         {
-            canvasMain.SetActive(true);
             canvasAux.SetActive(false);//desativa o canvas
+            canvasMain.SetActive(true);
         }
     }
 }
