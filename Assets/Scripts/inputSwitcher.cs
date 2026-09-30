@@ -2,21 +2,6 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-/*using UnityEngine; //verificar isso dps pra ver como permitir o Icone trocar de canvas
-
-public class CompartilharObjeto : MonoBehaviour
-{
-    public GameObject objetoParaMover;
-    public Transform canvasDestino;
-
-    public void MoverParaOutroCanvas()
-    {
-        // Define o novo Canvas como pai do objeto
-        // O segundo parâmetro 'false' garante que o objeto mantenha sua escala e tamanho corretos na UI
-        objetoParaMover.transform.SetParent(canvasDestino, false);
-    }
-}*/
-
 public class InputSwitcher : MonoBehaviour
 {
     public GameObject primeiroBotao;
@@ -163,12 +148,17 @@ public class InputSwitcher : MonoBehaviour
         if(Icone){
             GameObject selecionado = EventSystem.current.currentSelectedGameObject;
 
+            if(!selecionado || Mouse)
+            {
+                return;
+            }
+
             if (selecionado && Mouse == false)
             {
-                if(Cursor.visible == true)
+                /*if(Cursor.visible == true)
                 {
                     //Cursor.visible = false;
-                }
+                }*/
 
                 Icone.SetActive(true);
                 RectTransform iconePosition = Icone.GetComponent<RectTransform>();
