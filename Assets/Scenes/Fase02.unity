@@ -3638,6 +3638,10 @@ PrefabInstance:
       value: 0.39215687
       objectReference: {fileID: 0}
     - target: {fileID: 2902390806141866336, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CarregarCenaFase
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902390806141866336, guid: 27c9f1c791c37294187ec9f92df988bc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Menu
       objectReference: {fileID: 0}

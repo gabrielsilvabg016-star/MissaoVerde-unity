@@ -203,7 +203,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 652684517}
         m_TargetAssemblyTypeName: Ludus.SDK.Framework.Genericos, Assembly-CSharp
-        m_MethodName: CarregarCena
+        m_MethodName: CarregarCenaFase
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
